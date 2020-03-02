@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter id="51a46613-94fd-4a99-9497-a824f6389232" name="PHP latest" home="$USER_HOME$/Library/Caches/PhpStorm2019.3/plugins/idea-php-latest-plugin/php-v7.3.1/php.sh" debugger_id="php.debugger.XDebug" />
-    </interpreters>
-  </component>
-</project>
