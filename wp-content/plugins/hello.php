@@ -68,6 +68,7 @@ function hello_dolly() {
 // Now we set that function up to execute when the admin_notices action is called.
 add_action( 'admin_notices', 'hello_dolly' );
 
+
 // We need some CSS to position the paragraph.
 function dolly_css() {
 	echo "
