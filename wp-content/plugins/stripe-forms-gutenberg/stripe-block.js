@@ -3,7 +3,7 @@
 	var __ = i18n.__;
 
 	var blockStyle = {
-		backgroundColor: '#900',
+		backgroundColor: '#000',
 		color: '#fff',
 		padding: '20px',
 	};
@@ -16,14 +16,16 @@
 			return el(
 				'p',
 				{ style: blockStyle },
-				'Hello World, step 1 (from the editor).'
+				'Stripe Form'
 			);
 		},
 		save: function() {
 			return el(
-				'p',
-				{ style: blockStyle },
-				'Hello World, step 1 (from the frontend).'
+				'iframe',
+				{
+					src: cs_data.siteUrl+'/?gutenbergstripeform',
+					frameborder: 0
+				},
 			);
 		},
 	} );

@@ -47,5 +47,23 @@ function gutenberg_stripe_forms_register_block() {
 	register_block_type( 'gutenberg-alberto/stripe-forms', array(
 		'editor_script' => 'stripe-forms',
 	) );
+
+	wp_localize_script(
+		'stripe-forms',
+		'cs_data',
+		[
+			'siteUrl'       => get_site_url()
+		]
+	);
 }
 add_action( 'init', 'gutenberg_stripe_forms_register_block' );
+
+// función para url custom
+function gutenberg_stripe_forms_url() {
+   if (isset($_GET["gutenbergstripeform"])) {
+	  require 'stripe/index.php';
+	  exit;
+   }
+}
+add_action('parse_request', 'gutenberg_stripe_forms_url');
+add_action( 'init', 'gutenberg_stripe_forms_url' );
