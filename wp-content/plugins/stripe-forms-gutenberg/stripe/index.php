@@ -6,7 +6,7 @@ use \Stripe;
 
 if (isset($_POST['stripeToken']) && !empty($_POST['stripeToken'])) {
 
-    Stripe\Stripe::setApiKey(get_option('stripe_forms_gutenberg_api_secret'));
+    Stripe\Stripe::setApiKey('sk_test_dbB0vSoGpSW1Nksh47zkdFYx00naro86v0');
  
     $token = $_POST['stripeToken'];
  
@@ -49,7 +49,7 @@ if (isset($_POST['stripeToken']) && !empty($_POST['stripeToken'])) {
 
     <script src="https://js.stripe.com/v3/"></script>
     <script>
-      var stripe = Stripe('<?php echo get_option('stripe_forms_gutenberg_api_public'); ?>');
+      var stripe = Stripe('pk_test_b3YGBT9Oc8wHzMiIGOO4p0Cr00Zqfj6Bxp');
       var elements = stripe.elements();
 
       var card = elements.create('card');
