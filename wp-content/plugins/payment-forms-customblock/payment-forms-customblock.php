@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Stripe Forms Gutenberg
+ * Plugin Name: Payment Forms CustomBlock
  * Description: Bloque de formularios de Stripe con Gutenberg
  * Author: Alberto González
  * Version: 1.0.0
