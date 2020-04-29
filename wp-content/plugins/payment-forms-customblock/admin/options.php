@@ -1,5 +1,5 @@
 <?php
-if (! current_user_can ('manage_options')) wp_die (__ ('No tienes permisos'));
+if (! current_user_can ('manage_options')) wp_die (_e('No tienes permisos', 'stripe-forms-gutenberg'));
 ?>
 
     <div class="wrap">

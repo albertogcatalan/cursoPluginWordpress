@@ -4,11 +4,11 @@ require_once "vendor/autoload.php";
 
 use \Stripe;
 
-if (isset($_POST['stripeToken']) && !empty($_POST['stripeToken'])) {
+$token = sanitize_text_field($_POST['stripeToken']);
+
+if (isset($token) && !empty($token)) {
 
     Stripe\Stripe::setApiKey(get_option('stripe_forms_gutenberg_api_secret'));
- 
-    $token = $_POST['stripeToken'];
  
     try {
         $charge = Stripe\Charge::create([
@@ -29,8 +29,9 @@ if (isset($_POST['stripeToken']) && !empty($_POST['stripeToken'])) {
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Intermedio: Lección 04</title>
+    <title>Stripe Forms</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <?php wp_head(); ?>
   </head>
 
   <body>
@@ -47,7 +48,7 @@ if (isset($_POST['stripeToken']) && !empty($_POST['stripeToken'])) {
     <button>Enviar</button>
     </form>
 
-    <script src="https://js.stripe.com/v3/"></script>
+    <?php wp_footer(); ?>
     <script>
       var stripe = Stripe('<?php echo get_option('stripe_forms_gutenberg_api_public'); ?>');
       var elements = stripe.elements();
@@ -64,12 +65,12 @@ if (isset($_POST['stripeToken']) && !empty($_POST['stripeToken'])) {
             var errorElement = document.getElementById('card-errors');
             errorElement.textContent = result.error.message;
           } else {
-            stripeTokenHandler(result.token);
+            pfcb_token_handler(result.token);
           }
         });
       });
 
-      function stripeTokenHandler(token) {
+      function pfcb_token_handler(token) {
           var form = document.getElementById('payment-form');
           var hiddenInput = document.createElement('input');
           hiddenInput.setAttribute('type', 'hidden');
