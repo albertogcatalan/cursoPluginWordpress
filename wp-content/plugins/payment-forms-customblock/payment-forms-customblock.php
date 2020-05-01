@@ -60,7 +60,8 @@ add_action('init', 'pfcb_register_block');
 function pfcb_register_js()
 {
     if (!empty(get_option('stripe_forms_gutenberg_api_secret')) 
-        && !empty(get_option('stripe_forms_gutenberg_api_public'))) {
+        && !empty(get_option('stripe_forms_gutenberg_api_public'))
+        && isset($_GET['gutenbergstripeform'])) {
         wp_enqueue_script('pfcb-stripe-checkout','https://js.stripe.com/v3/', array('jquery'), 1, true);
     }
 }
