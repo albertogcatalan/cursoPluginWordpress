@@ -3,7 +3,7 @@
  * Plugin Name: Payment Forms CustomBlock
  * Description: Bloque de formularios de Stripe con Gutenberg
  * Author: Alberto González
- * Version: 1.0.0
+ * Version: 1.1
  * Author URI: https://albertogcatalan.com
  * Text Domain: stripe-forms-gutenberg
  * Domain Path: /languages
@@ -56,17 +56,22 @@ function pfcb_register_block()
 }
 add_action('init', 'pfcb_register_block');
 
-// función para registrar js
+// función para registrar el js
 function pfcb_register_js()
 {
-    wp_enqueue_script('pfcb-stripe-checkout', 'https://js.stripe.com/v3/', array('jquery'), 1, true);
+    if (!empty(get_option('stripe_forms_gutenberg_api_secret')) 
+        && !empty(get_option('stripe_forms_gutenberg_api_public'))
+        && isset($_GET['gutenbergstripeform'])) {
+        wp_enqueue_script('pfcb-stripe-checkout','https://js.stripe.com/v3/', array('jquery'), 1, true);
+    }
 }
-add_action('wp_enqueue_scripts', 'pfcb_register_js');
+add_action( 'wp_enqueue_scripts', 'pfcb_register_js');
 
-// función para reigstrar el bloque en gutenberg
+// función para registrar el bloque en gutenberg
 function pfcb_url()
 {
     if (isset($_GET['gutenbergstripeform'])) {
+
         require 'stripe/index.php';
         exit;
     }
