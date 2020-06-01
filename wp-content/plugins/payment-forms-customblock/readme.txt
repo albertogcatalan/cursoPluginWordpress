@@ -1,8 +1,8 @@
 === Payment Forms CustomBlock ===
 Tags: gutenberg, stripe
 Requires at least: 5.0
-Tested up to: 1.0
-Stable tag: 1.0
+Tested up to: 5.3
+Stable tag: 1.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,6 +25,10 @@ e.g.
 
 
 == Changelog ==
+
+= 1.1 =
+* Improve Stripe scripts
+* Fix readme file
 
 = 1.0 =
 * First version.

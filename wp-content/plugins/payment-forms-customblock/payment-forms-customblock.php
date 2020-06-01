@@ -3,7 +3,7 @@
  * Plugin Name: Payment Forms CustomBlock
  * Description: Bloque de formularios de Stripe con Gutenberg
  * Author: Alberto González
- * Version: 1.0.0
+ * Version: 1.1
  * Author URI: https://albertogcatalan.com
  * Text Domain: stripe-forms-gutenberg
  * Domain Path: /languages
