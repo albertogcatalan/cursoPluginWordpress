@@ -69,7 +69,7 @@ $table_prefix = 'wp_';
  * Se recomienda encarecidamente a los desarrolladores de temas y plugins que usen WP_DEBUG
  * en sus entornos de desarrollo.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 

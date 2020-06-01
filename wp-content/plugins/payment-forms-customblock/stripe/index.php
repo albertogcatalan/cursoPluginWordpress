@@ -29,7 +29,7 @@ if (isset($token) && !empty($token)) {
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Stripe Forms</title>
+    <title>Stripe Intermedio: Lección 04</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <?php wp_head(); ?>
   </head>
