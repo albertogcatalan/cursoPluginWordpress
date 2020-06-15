@@ -25,6 +25,13 @@ if (! current_user_can ('manage_options')) wp_die (_e('No tienes permisos', 'str
                         <input type="text" name="stripe_forms_gutenberg_api_public" id="stripe_forms_gutenberg_api_public" value="<?php echo get_option('stripe_forms_gutenberg_api_public'); ?>" />
                     </td>
                 </tr>
+
+                <tr>
+                    <td>
+                        <label><?php _e('Premium', 'stripe-forms-gutenberg') ?>:</label>
+                        <input type="text" name="stripe_forms_gutenberg_premium_key" id="stripe_forms_gutenberg_premium_key" value="<?php echo get_option('stripe_forms_gutenberg_premium_key'); ?>" />
+                    </td>
+                </tr>
             </table>
             <?php submit_button(); ?>
         </form>

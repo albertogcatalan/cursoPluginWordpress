@@ -17,6 +17,9 @@ define('PFCB_NAME', 'Stripe Forms Gutenberg');
 define('PFCB_PATH', plugin_dir_path(__FILE__));
 define('PFCB_ADMIN_PATH', plugin_dir_path(__FILE__).'/admin/');
 define('PFCB_REQUIRE_PLUGIN', 'hello.php');
+define('PFCB_BASENAME', plugin_basename(__FILE__));
+
+register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_premium_key');
 
 class PruebaExtension
 {
@@ -59,6 +62,30 @@ function plugins_loaded() {
         add_action('admin_notices', 'display_error');
 
         return null;
+    }
+
+    function isPremium()
+    {
+        $key = get_option('stripe_forms_gutenberg_premium_key');
+        if ($key == '1234') {
+            return true;
+        }
+
+        return false;
+    }
+
+    $isPremium = isPremium();
+
+    if (!$isPremium) {
+        add_filter('plugin_action_links_'.PFCB_BASENAME, 'pfcb_custom_link_premium');
+    }
+
+    // función para añadir enlace custom en listado plugin
+    function pfcb_custom_link_premium($links)
+    {
+        $links[] = '<a href="#" target="_blank" rel="noopener noreferrer"><strong style="color: green; display: inline;">Actualizar a Premium</strong></a>';
+
+        return $links;
     }
 
     // función para añadir el menu
