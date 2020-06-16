@@ -8,8 +8,8 @@
         padding: '20px',
     };
  
-    blocks.registerBlockType( 'gutenberg-alberto/stripe-forms', {
-        title: __('Stripe Forms', 'stripe-forms-gutenberg'),
+    blocks.registerBlockType( 'pfcb-suscription/stripe-suscription', {
+        title: __('Stripe Forms Suscripción', 'stripe-forms-gutenberg'),
         icon: 'universal-access-alt',
         category: 'layout',
         example: {},
@@ -17,14 +17,14 @@
             return el(
                 'p',
                 { style: blockStyle },
-                __('Stripe Forms', 'stripe-forms-gutenberg')
+                __('Stripe Forms Suscripción', 'stripe-forms-gutenberg')
             );
         },
         save: function() {
             return el(
                 'iframe',
                 {
-                    src: custom_data.siteUrl+'/?gutenbergstripeform',
+                    src: custom_data.siteUrl+'/?gutenbergstripeformsus',
                     frameborder: 0
                 },
             );

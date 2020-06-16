@@ -3,7 +3,7 @@
  * Plugin Name: Payment Forms CustomBlock
  * Description: Bloque de formularios de Stripe con Gutenberg
  * Author: Alberto González
- * Version: 1.1
+ * Version: 1.2
  * Author URI: https://albertogcatalan.com
  * Text Domain: stripe-forms-gutenberg
  * Domain Path: /languages
@@ -16,52 +16,23 @@ exit;
 define('PFCB_NAME', 'Stripe Forms Gutenberg');
 define('PFCB_PATH', plugin_dir_path(__FILE__));
 define('PFCB_ADMIN_PATH', plugin_dir_path(__FILE__).'/admin/');
-define('PFCB_REQUIRE_PLUGIN', 'hello.php');
+define('PFCB_EXTENSION', 'payment-forms-customblock-dashboard/payment-forms-customblock-dashboard.php');
 define('PFCB_BASENAME', plugin_basename(__FILE__));
 
-register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_premium_key');
-
-class PruebaExtension
+function pfcb_init()
 {
-    public function __construct()
+    function pfcb_check_extension()
     {
-        $this->register_callbacks();
-    }
+        $extension = false;
 
-    protected function register_callbacks()
-    {
-        add_action( 'showExtensionText', array( $this, 'showExtensionText' ) );
-    }
-
-    public function showExtensionText()
-    {
-        ?>
-        <div class="wrap">
-            <p><?php esc_html_e( 'Texto', 'stripe-forms-gutenberg' ); ?></p>        
-        </div>
-         <?php
-    }
-}
-
-//$a = new PruebaExtension();
-//$a->showExtensionText();
-//do_action('showExtensionText');
-
-
-function plugins_loaded() {
-    $error = true;
-
-    $active_plugins = (array) get_option('active_plugins', array());
-    foreach ($active_plugins as $plugin) {
-        if ($plugin == PFCB_REQUIRE_PLUGIN) {
-            $error = false;
+        $active_plugins = (array) get_option('active_plugins', array());
+        foreach ($active_plugins as $plugin) {
+            if ($plugin == PFCB_EXTENSION) {
+                $extension = true;
+            }
         }
-    }
 
-    if ($error) {
-        add_action('admin_notices', 'display_error');
-
-        return null;
+        return true;
     }
 
     function isPremium()
@@ -93,18 +64,24 @@ function plugins_loaded() {
     {
         add_menu_page(PFCB_NAME, PFCB_NAME, 'manage_options', PFCB_ADMIN_PATH.'options.php');
     }
-    add_action('admin_menu', 'pfcb_menu');
+    $extensionEnabled = pfcb_check_extension();
+    if (!$extensionEnabled) {
+        add_action('admin_menu', 'pfcb_menu');
+    }
 
     // función para registrar las opciones
     function pfcb_settings()
     {
         register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_api_secret');
         register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_api_public');
+        register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_premium_key');
+        register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_plan');
     }
     add_action('admin_init', 'pfcb_settings');
 
     // función para registrar el bloque en gutenberg
-    function pfcb_register_block()
+    // función para registrar el bloque en gutenberg
+    function pfcb_register_block($isPremium)
     {
         wp_register_script(
             'stripe-forms',
@@ -124,41 +101,63 @@ function plugins_loaded() {
                 'siteUrl' => get_site_url()
             ]
         );
+
+        if ($isPremium) {
+            wp_register_script(
+                'stripe-suscription',
+                plugins_url('stripe-sus.js', __FILE__),
+                array('wp-blocks', 'wp-element', 'wp-i18n'),
+                filemtime(plugin_dir_path(__FILE__).'stripe-sus.js')
+            );
+    
+            register_block_type('pfcb-suscription/stripe-suscription', array(
+                'editor_script' => 'stripe-suscription'
+            ) );
+    
+            wp_localize_script(
+                'stripe-suscription',
+                'custom_data',
+                [
+                    'siteUrl' => get_site_url()
+                ]
+            );
+        }
     }
-    add_action('init', 'pfcb_register_block');
+    add_action('init', function() use ($isPremium) {
+        pfcb_register_block($isPremium);
+    });
 
     // función para registrar el js
     function pfcb_register_js()
     {
         if (!empty(get_option('stripe_forms_gutenberg_api_secret')) 
             && !empty(get_option('stripe_forms_gutenberg_api_public'))
-            && isset($_GET['gutenbergstripeform'])) {
+            && (isset($_GET['gutenbergstripeform']) || isset($_GET['gutenbergstripeformsus']))) {
             wp_enqueue_script('pfcb-stripe-checkout','https://js.stripe.com/v3/', array('jquery'), 1, true);
         }
     }
     add_action( 'wp_enqueue_scripts', 'pfcb_register_js');
 
     // función para registrar el bloque en gutenberg
-    function pfcb_url()
+    function pfcb_url($isPremium)
     {
         if (isset($_GET['gutenbergstripeform'])) {
 
             require 'stripe/index.php';
             exit;
         }
+
+        if ($isPremium) {
+            if (isset($_GET['gutenbergstripeformsus'])) {
+
+                require 'stripe/index_sus.php';
+                exit;
+            }
+        }
     }
-    add_action('parse_request', 'pfcb_url');
-    add_action('init', 'pfcb_url');
+    add_action('parse_request', 'pfcb_url', 10, 1);
+    add_action('init', 'pfcb_url', 10, 1);
 
 }
 
-function display_error() {
-    ?>
-    <div class="error">
-        <p><strong><?php esc_html_e(PFCB_NAME, 'stripe-forms-gutenberg') ?></strong></p>
-        <p><?php esc_html_e('Para poder utilizar este plugin es necesario activar el plugin: ' . PFCB_REQUIRE_PLUGIN, 'stripe-forms-gutenberg') ?></p>
-    </div>
-    <?php
-}
-
-add_action('plugins_loaded', 'plugins_loaded');
+add_action('plugins_loaded', 'pfcb_init');
