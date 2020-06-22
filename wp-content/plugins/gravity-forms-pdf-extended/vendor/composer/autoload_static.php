@@ -154,6 +154,7 @@ class ComposerStaticInitGravityPDFPlugin
         'GFPDF\\Controller\\Controller_Save_Core_Fonts' => __DIR__ . '/../..' . '/src/Controller/Controller_Save_Core_Fonts.php',
         'GFPDF\\Controller\\Controller_Settings' => __DIR__ . '/../..' . '/src/Controller/Controller_Settings.php',
         'GFPDF\\Controller\\Controller_Shortcodes' => __DIR__ . '/../..' . '/src/Controller/Controller_Shortcodes.php',
+        'GFPDF\\Controller\\Controller_System_Report' => __DIR__ . '/../..' . '/src/Controller/Controller_System_Report.php',
         'GFPDF\\Controller\\Controller_Templates' => __DIR__ . '/../..' . '/src/Controller/Controller_Templates.php',
         'GFPDF\\Controller\\Controller_Welcome_Screen' => __DIR__ . '/../..' . '/src/Controller/Controller_Welcome_Screen.php',
         'GFPDF\\Exceptions\\GravityPdfShortcodeEntryIdException' => __DIR__ . '/../..' . '/src/Exceptions/GravityPdfShortcodeEntryIdException.php',

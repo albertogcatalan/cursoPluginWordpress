@@ -199,7 +199,7 @@ abstract class Helper_Abstract_Pdf_Shortcode extends Helper_Abstract_Model {
 		 * This resolves a conflict with a third party GF plugin which was passing an error instead of the expected GF confirmation response
 		 * @see https://github.com/GravityPDF/gravity-pdf/issues/999
 		 */
-		if ( is_wp_error( $notification ) || is_wp_error( $entry ) ) {
+		if ( is_wp_error( $notification ) || is_wp_error( $entry ) || empty( $entry['id'] ) ) {
 			return $notification;
 		}
 
@@ -404,6 +404,18 @@ abstract class Helper_Abstract_Pdf_Shortcode extends Helper_Abstract_Model {
 	 */
 	public function get_shortcode_information( $shortcode, $text ) {
 		$shortcodes = [];
+
+		if ( ! is_string( $text ) ) {
+			$this->log->error(
+				'The $text parameter is not a string',
+				[
+					'shortcode' => $shortcode,
+					'text'      => $text,
+				]
+			);
+
+			return $shortcodes;
+		}
 
 		if ( has_shortcode( $text, $shortcode ) ) {
 			/* our shortcode exists so parse the shortcode data and return an easy-to-use array */

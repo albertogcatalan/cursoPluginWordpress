@@ -2,9 +2,7 @@
 
 require_once "vendor/autoload.php";
 
-use \Stripe;
-
-$token = sanitize_text_field($_POST['stripeToken']);
+$token = isset($_POST['stripeToken']) ? sanitize_text_field($_POST['stripeToken']) : '';
 
 if (isset($token) && !empty($token)) {
 

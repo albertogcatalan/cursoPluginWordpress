@@ -312,10 +312,15 @@ class Model_PDF extends Helper_Abstract_Model {
 	 */
 	public function middle_signed_url_access( $action, $entry, $settings ) {
 
-		if ( isset( $_GET['expires'] ) && isset( $_GET['signature'] ) && isset( $_SERVER['REQUEST_URI'] ) ) {
+		if ( isset( $_GET['expires'] ) && isset( $_GET['signature'] ) && isset( $_SERVER['HTTP_HOST'] ) && isset( $_SERVER['REQUEST_URI'] ) ) {
 			try {
-				$home_url = untrailingslashit( strtok( home_url(), '?' ) );
-				if ( $this->url_signer->verify( $home_url . $_SERVER['REQUEST_URI'] ) ) {
+				$protocol = isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+				$domain   = $_SERVER['HTTP_HOST'];
+				$request  = $_SERVER['REQUEST_URI'];
+
+				$url = $protocol . $domain . $request;
+
+				if ( $this->url_signer->verify( $url ) ) {
 					remove_filter( 'gfpdf_pdf_middleware', [ $this, 'middle_owner_restriction' ], 40 );
 					remove_filter( 'gfpdf_pdf_middleware', [ $this, 'middle_logged_out_timeout' ], 50 );
 					remove_filter( 'gfpdf_pdf_middleware', [ $this, 'middle_auth_logged_out_user' ], 60 );
@@ -979,7 +984,7 @@ class Model_PDF extends Helper_Abstract_Model {
 		 * This resolves any issues with the "Save and Continue" feature
 		 * See https://github.com/GravityPDF/gravity-pdf/issues/360
 		 */
-		if ( null === $entry['id'] ) {
+		if ( empty( $entry['id'] ) ) {
 			return $notifications;
 		}
 
@@ -1477,24 +1482,26 @@ class Model_PDF extends Helper_Abstract_Model {
 	public function get_form_data_meta( $form, $entry ) {
 		$data = [];
 
-		/* Add form_id and entry_id for convinience */
-		$data['form_id']  = $entry['form_id'];
-		$data['entry_id'] = $entry['id'];
+		/* Add form_id and entry_id for convenience */
+		$data['form_id']  = isset( $entry['form_id'] ) ? $entry['form_id'] : 0;
+		$data['entry_id'] = isset( $entry['id'] ) ? $entry['id'] : 0;
 
-		/* Set title and dates (both US and international) */
-		$data['form_title'] = ( isset( $form['title'] ) ) ? $form['title'] : '';
-
-		$data['form_description'] = ( isset( $form['description'] ) ) ? $form['description'] : '';
-		$data['date_created']     = GFCommon::format_date( $entry['date_created'], false, 'j/n/Y', false );
-		$data['date_created_usa'] = GFCommon::format_date( $entry['date_created'], false, 'n/j/Y', false );
+		/* Set title and description */
+		$data['form_title']       = isset( $form['title'] ) ? $form['title'] : '';
+		$data['form_description'] = isset( $form['description'] ) ? $form['description'] : '';
 
 		/* Include page names */
-		$data['pages'] = ( isset( $form['pagination']['pages'] ) ? $form['pagination']['pages'] : [] );
+		$data['pages'] = isset( $form['pagination']['pages'] ) ? $form['pagination']['pages'] : [];
 
-		/* Add misc fields */
-		$data['misc']['date_time'] = GFCommon::format_date( $entry['date_created'], false, 'Y-m-d H:i:s', false );
-		$data['misc']['time_24hr'] = GFCommon::format_date( $entry['date_created'], false, 'H:i', false );
-		$data['misc']['time_12hr'] = GFCommon::format_date( $entry['date_created'], false, 'g:ia', false );
+		/* Add date fields */
+		if ( isset( $entry['date_created'] ) ) {
+			$data['date_created']     = GFCommon::format_date( $entry['date_created'], false, 'j/n/Y', false );
+			$data['date_created_usa'] = GFCommon::format_date( $entry['date_created'], false, 'n/j/Y', false );
+
+			$data['misc']['date_time'] = GFCommon::format_date( $entry['date_created'], false, 'Y-m-d H:i:s', false );
+			$data['misc']['time_24hr'] = GFCommon::format_date( $entry['date_created'], false, 'H:i', false );
+			$data['misc']['time_12hr'] = GFCommon::format_date( $entry['date_created'], false, 'g:ia', false );
+		}
 
 		$include = [
 			'is_starred',
@@ -2098,5 +2105,45 @@ class Model_PDF extends Helper_Abstract_Model {
 		$mpdf->watermark_font = ( isset( $settings['watermark_font'] ) ) ? $settings['watermark_font'] : $settings['font'];
 
 		return $mpdf;
+	}
+
+	/**
+	 * At the start of the PDF generation, filter all Gravity Perk Populate Anything merge tag replacement calls
+	 *
+	 * @since 5.3
+	 */
+	public function enable_gp_populate_anything() {
+		remove_filter( 'gppa_allow_all_lmts', '__return_true' );
+		add_filter( 'gform_pre_replace_merge_tags', [ $this, 'process_gp_populate_anything' ], 10, 3 );
+	}
+
+	/**
+	 * Replace any Gravity Perk Populate Anything live merge tags with their standard equivilant (i.e without the @ symbol)
+	 * Include support for the `fallback` option
+	 *
+	 * @param string $text
+	 *
+	 * @return string
+	 *
+	 * @since 5.3
+	 */
+	public function process_gp_populate_anything( $text, $form, $entry ) {
+		$gp = \GP_Populate_Anything_Live_Merge_Tags::get_instance();
+
+		$this->disable_gp_populate_anything();
+		$text = $gp->replace_live_merge_tags_static( $text, $form, $entry );
+		$this->enable_gp_populate_anything();
+
+		return $text;
+	}
+
+	/**
+	 * At the end of the PDF generation, remove filter to replace merge tags for Gravity Perk Populate Anything
+	 *
+	 * @since 5.3
+	 */
+	public function disable_gp_populate_anything() {
+		add_filter( 'gppa_allow_all_lmts', '__return_true' );
+		remove_filter( 'gform_pre_replace_merge_tags', [ $this, 'process_gp_populate_anything' ] );
 	}
 }

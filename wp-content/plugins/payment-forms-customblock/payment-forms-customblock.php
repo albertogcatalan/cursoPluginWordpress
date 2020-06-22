@@ -35,7 +35,7 @@ function pfcb_init()
         return true;
     }
 
-    function isPremium()
+    function pfcb_isPremium()
     {
         $key = get_option('stripe_forms_gutenberg_premium_key');
         if ($key == '1234') {
@@ -45,7 +45,7 @@ function pfcb_init()
         return false;
     }
 
-    $isPremium = isPremium();
+    $isPremium = pfcb_isPremium();
 
     if (!$isPremium) {
         add_filter('plugin_action_links_'.PFCB_BASENAME, 'pfcb_custom_link_premium');
@@ -79,7 +79,6 @@ function pfcb_init()
     }
     add_action('admin_init', 'pfcb_settings');
 
-    // función para registrar el bloque en gutenberg
     // función para registrar el bloque en gutenberg
     function pfcb_register_block($isPremium)
     {
@@ -135,8 +134,21 @@ function pfcb_init()
             && (isset($_GET['gutenbergstripeform']) || isset($_GET['gutenbergstripeformsus']))) {
             wp_enqueue_script('pfcb-stripe-checkout','https://js.stripe.com/v3/', array('jquery'), 1, true);
         }
+
+        if (!current_theme_supports('pfcb_style')) {
+            wp_enqueue_style('pfcb-css', plugins_url('assets/plugin.css', __FILE__));
+        } 
     }
     add_action( 'wp_enqueue_scripts', 'pfcb_register_js');
+
+    // función para crear shortcode
+    function pfcb_shortcode($params)
+    {
+        $url = get_site_url().'?gutenbergstripeform';
+        return "<iframe src='$url' frameborder=0></iframe>";
+
+    }
+    add_shortcode('pfcb_stripe_checkout', 'pfcb_shortcode');
 
     // función para registrar el bloque en gutenberg
     function pfcb_url($isPremium)
@@ -156,8 +168,6 @@ function pfcb_init()
         }
     }
     add_action('parse_request', 'pfcb_url', 10, 1);
-    add_action('init', 'pfcb_url', 10, 1);
-
 }
 
 add_action('plugins_loaded', 'pfcb_init');

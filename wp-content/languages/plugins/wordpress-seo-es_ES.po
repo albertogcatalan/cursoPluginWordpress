@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-09 07:38:21+0000\n"
+"PO-Revision-Date: 2020-06-20 21:34:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -103,7 +103,7 @@ msgstr "Aprende más sobre el ajuste nofollow en nuestra página de ayuda."
 
 #: languages/wordpress-seojs.php:5
 msgid "Should search engines follow links on this %s"
-msgstr "Deberían los motores de búsqueda seguir los enlaces en este %s"
+msgstr "Deberían los motores de búsqueda seguir los enlaces en esta %s"
 
 #. translators: 1: Expands to Yoast SEO.
 #: src/presenters/admin/indexation-list-item-presenter.php:51

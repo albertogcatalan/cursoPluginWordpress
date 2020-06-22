@@ -39,6 +39,7 @@ return array(
     'GFPDF\\Controller\\Controller_Save_Core_Fonts' => $baseDir . '/src/Controller/Controller_Save_Core_Fonts.php',
     'GFPDF\\Controller\\Controller_Settings' => $baseDir . '/src/Controller/Controller_Settings.php',
     'GFPDF\\Controller\\Controller_Shortcodes' => $baseDir . '/src/Controller/Controller_Shortcodes.php',
+    'GFPDF\\Controller\\Controller_System_Report' => $baseDir . '/src/Controller/Controller_System_Report.php',
     'GFPDF\\Controller\\Controller_Templates' => $baseDir . '/src/Controller/Controller_Templates.php',
     'GFPDF\\Controller\\Controller_Welcome_Screen' => $baseDir . '/src/Controller/Controller_Welcome_Screen.php',
     'GFPDF\\Exceptions\\GravityPdfShortcodeEntryIdException' => $baseDir . '/src/Exceptions/GravityPdfShortcodeEntryIdException.php',

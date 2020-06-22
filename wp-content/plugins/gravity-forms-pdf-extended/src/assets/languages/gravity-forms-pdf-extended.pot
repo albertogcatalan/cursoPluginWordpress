@@ -69,51 +69,51 @@ msgstr ""
 msgid "\"%s\" has been deprecated as of Gravity PDF 4.0"
 msgstr ""
 
-#: src/bootstrap.php:295
+#: src/bootstrap.php:296
 msgid "Get started with Gravity PDF"
 msgstr ""
 
-#: src/bootstrap.php:295, src/View/html/Settings/help.php:57
+#: src/bootstrap.php:296, src/View/html/Settings/help.php:57
 msgid "Getting Started"
 msgstr ""
 
-#: src/bootstrap.php:296
+#: src/bootstrap.php:297
 msgid "View Gravity PDF Settings"
 msgstr ""
 
-#: src/bootstrap.php:296
+#: src/bootstrap.php:297
 msgid "Settings"
 msgstr ""
 
-#: src/bootstrap.php:316
+#: src/bootstrap.php:317
 msgid "View Gravity PDF Documentation"
 msgstr ""
 
-#: src/bootstrap.php:316, src/Helper/Helper_Abstract_Addon.php:635
+#: src/bootstrap.php:317, src/Helper/Helper_Abstract_Addon.php:635
 msgid "Docs"
 msgstr ""
 
-#: src/bootstrap.php:317, src/Helper/Helper_Abstract_Addon.php:638
+#: src/bootstrap.php:318, src/Helper/Helper_Abstract_Addon.php:638
 msgid "Get Help and Support"
 msgstr ""
 
-#: src/bootstrap.php:317, src/Helper/Helper_Abstract_Addon.php:638
+#: src/bootstrap.php:318, src/Helper/Helper_Abstract_Addon.php:638
 msgid "Support"
 msgstr ""
 
-#: src/bootstrap.php:318
+#: src/bootstrap.php:319
 msgid "View Gravity PDF Extensions Shop"
 msgstr ""
 
-#: src/bootstrap.php:318, src/View/View_Settings.php:192
+#: src/bootstrap.php:319, src/View/View_Settings.php:192
 msgid "Extensions"
 msgstr ""
 
-#: src/bootstrap.php:319
+#: src/bootstrap.php:320
 msgid "View Gravity PDF Template Shop"
 msgstr ""
 
-#: src/bootstrap.php:319, src/Helper/Helper_Options_Fields.php:94, src/Helper/Helper_Options_Fields.php:299
+#: src/bootstrap.php:320, src/Helper/Helper_Options_Fields.php:94, src/Helper/Helper_Options_Fields.php:299
 msgid "Templates"
 msgstr ""
 
@@ -125,7 +125,7 @@ msgstr ""
 msgid "Install Core Fonts"
 msgstr ""
 
-#: src/Controller/Controller_Actions.php:216, src/Model/Model_Form_Settings.php:168, src/Model/Model_Form_Settings.php:205, src/Model/Model_Form_Settings.php:275, src/View/View_Settings.php:296
+#: src/Controller/Controller_Actions.php:216, src/Model/Model_Form_Settings.php:168, src/Model/Model_Form_Settings.php:205, src/Model/Model_Form_Settings.php:275, src/View/View_Settings.php:297
 msgid "You do not have permission to access this page"
 msgstr ""
 
@@ -133,16 +133,24 @@ msgstr ""
 msgid "There was a problem processing the action. Please try again."
 msgstr ""
 
-#: src/Controller/Controller_Install.php:213
+#: src/Controller/Controller_Install.php:214
 msgid "There was a problem uninstalling Gravity PDF. Please try again."
 msgstr ""
 
-#: src/Controller/Controller_PDF.php:365, src/View/View_PDF.php:249
+#: src/Controller/Controller_PDF.php:371, src/View/View_PDF.php:242
 msgid "There was a problem generating your PDF"
 msgstr ""
 
-#: src/Controller/Controller_Settings.php:331
+#: src/Controller/Controller_Settings.php:332
 msgid "There was a problem installing the PDF templates. Please try again."
+msgstr ""
+
+#: src/Controller/Controller_System_Report.php:102, src/Helper/Helper_Data.php:234, src/Helper/Helper_Options_Fields.php:132, src/Helper/Helper_Options_Fields.php:158, src/Helper/Helper_Options_Fields.php:170, src/Helper/Helper_Options_Fields.php:426, src/Helper/Helper_Options_Fields.php:476, src/Helper/Helper_Options_Fields.php:534, src/Helper/Helper_Options_Fields.php:547, src/Helper/Helper_Options_Fields.php:560, src/Helper/Helper_Options_Fields.php:601, src/Helper/Helper_Options_Fields.php:660, src/Helper/Helper_Options_Fields.php:684, src/Helper/Helper_Options_Fields.php:708, src/Helper/Helper_Options_Fields.php:732, src/Helper/Helper_Options_Fields.php:756, src/Helper/Helper_Options_Fields.php:781
+msgid "Yes"
+msgstr ""
+
+#: src/Controller/Controller_System_Report.php:102, src/Helper/Helper_Data.php:233, src/Helper/Helper_Options_Fields.php:133, src/Helper/Helper_Options_Fields.php:159, src/Helper/Helper_Options_Fields.php:171, src/Helper/Helper_Options_Fields.php:427, src/Helper/Helper_Options_Fields.php:477, src/Helper/Helper_Options_Fields.php:535, src/Helper/Helper_Options_Fields.php:548, src/Helper/Helper_Options_Fields.php:561, src/Helper/Helper_Options_Fields.php:602, src/Helper/Helper_Options_Fields.php:661, src/Helper/Helper_Options_Fields.php:685, src/Helper/Helper_Options_Fields.php:709, src/Helper/Helper_Options_Fields.php:733, src/Helper/Helper_Options_Fields.php:757, src/Helper/Helper_Options_Fields.php:782
+msgid "No"
 msgstr ""
 
 #: src/Helper/Helper_Abstract_Addon.php:600
@@ -477,271 +485,263 @@ msgstr ""
 msgid "Cannot find file %s"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:148, src/Model/Model_Mergetags.php:117
+#: src/Helper/Helper_Data.php:149, src/Model/Model_Mergetags.php:117
 msgid "PDF"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:149
+#: src/Helper/Helper_Data.php:150
 msgid "Gravity PDF"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:176
+#: src/Helper/Helper_Data.php:177
 msgid "Your license key expired on %s."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:177
+#: src/Helper/Helper_Data.php:178
 msgid "Your license key has been disabled"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:178
+#: src/Helper/Helper_Data.php:179
 msgid "Invalid license key provided"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:179, src/Helper/Helper_Data.php:180
+#: src/Helper/Helper_Data.php:180, src/Helper/Helper_Data.php:181
 msgid "Your license is not active for this URL"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:181
+#: src/Helper/Helper_Data.php:182
 msgid "This appears to be an invalid license key for %s"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:182
+#: src/Helper/Helper_Data.php:183
 msgid "Your license key has reached its activation limit"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:183
+#: src/Helper/Helper_Data.php:184
 msgid "An error occurred, please try again"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:184
+#: src/Helper/Helper_Data.php:185
 msgid "An error occurred during activation, please try again"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:218
+#: src/Helper/Helper_Data.php:221
 msgid "Loading..."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:219
+#: src/Helper/Helper_Data.php:222
 msgid "Continue"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:220
+#: src/Helper/Helper_Data.php:223
 msgid "Uninstall"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:221
+#: src/Helper/Helper_Data.php:224
 msgid "Cancel"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:222, src/Helper/Helper_PDF_List_Table.php:321
+#: src/Helper/Helper_Data.php:225, src/Helper/Helper_PDF_List_Table.php:321
 msgid "Delete"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:223, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:877
+#: src/Helper/Helper_Data.php:226, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:877
 msgid "Active"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:224, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:877
+#: src/Helper/Helper_Data.php:227, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:877
 msgid "Inactive"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:225
+#: src/Helper/Helper_Data.php:228
 msgid "this PDF if"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:226, src/Helper/Helper_Options_Fields.php:205
+#: src/Helper/Helper_Data.php:229, src/Helper/Helper_Options_Fields.php:205
 msgid "Enable"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:227, src/Helper/Helper_Options_Fields.php:206
+#: src/Helper/Helper_Data.php:230, src/Helper/Helper_Options_Fields.php:206
 msgid "Disable"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:228
+#: src/Helper/Helper_Data.php:231
 msgid "Successfully Updated"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:229
+#: src/Helper/Helper_Data.php:232
 msgid "Successfully Deleted"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:230, src/Helper/Helper_Options_Fields.php:133, src/Helper/Helper_Options_Fields.php:159, src/Helper/Helper_Options_Fields.php:171, src/Helper/Helper_Options_Fields.php:427, src/Helper/Helper_Options_Fields.php:477, src/Helper/Helper_Options_Fields.php:535, src/Helper/Helper_Options_Fields.php:548, src/Helper/Helper_Options_Fields.php:561, src/Helper/Helper_Options_Fields.php:602, src/Helper/Helper_Options_Fields.php:661, src/Helper/Helper_Options_Fields.php:685, src/Helper/Helper_Options_Fields.php:709, src/Helper/Helper_Options_Fields.php:733, src/Helper/Helper_Options_Fields.php:757, src/Helper/Helper_Options_Fields.php:782
-msgid "No"
-msgstr ""
-
-#: src/Helper/Helper_Data.php:231, src/Helper/Helper_Options_Fields.php:132, src/Helper/Helper_Options_Fields.php:158, src/Helper/Helper_Options_Fields.php:170, src/Helper/Helper_Options_Fields.php:426, src/Helper/Helper_Options_Fields.php:476, src/Helper/Helper_Options_Fields.php:534, src/Helper/Helper_Options_Fields.php:547, src/Helper/Helper_Options_Fields.php:560, src/Helper/Helper_Options_Fields.php:601, src/Helper/Helper_Options_Fields.php:660, src/Helper/Helper_Options_Fields.php:684, src/Helper/Helper_Options_Fields.php:708, src/Helper/Helper_Options_Fields.php:732, src/Helper/Helper_Options_Fields.php:756, src/Helper/Helper_Options_Fields.php:781
-msgid "Yes"
-msgstr ""
-
-#: src/Helper/Helper_Data.php:232
+#: src/Helper/Helper_Data.php:235
 msgid "Standard"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:233
+#: src/Helper/Helper_Data.php:236
 msgid "Advanced"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:234
+#: src/Helper/Helper_Data.php:237
 msgid "Select"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:235
+#: src/Helper/Helper_Data.php:238
 msgid "Version"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:236
+#: src/Helper/Helper_Data.php:239
 msgid "Group"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:237
+#: src/Helper/Helper_Data.php:240
 msgid "Tags"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:239
+#: src/Helper/Helper_Data.php:242
 msgid "Migrating site #%s"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:240
+#: src/Helper/Helper_Data.php:243
 msgid "Site #%s migration complete."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:241
+#: src/Helper/Helper_Data.php:244
 msgid "Migration Error"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:242
+#: src/Helper/Helper_Data.php:245
 msgid "Site #%s migration errors."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:244
+#: src/Helper/Helper_Data.php:247
 msgid "Add New Template"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:245, src/View/html/Settings/general.php:50
+#: src/Helper/Helper_Data.php:248, src/View/html/Settings/general.php:50
 msgid "Show Advanced Options..."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:246
+#: src/Helper/Helper_Data.php:249
 msgid "Hide Advanced Options..."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:247
+#: src/Helper/Helper_Data.php:250
 msgid "This form doesn't have any PDFs."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:248
+#: src/Helper/Helper_Data.php:251
 msgid "Let's go create one"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:249
+#: src/Helper/Helper_Data.php:252
 msgid "Installed PDFs"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:251
+#: src/Helper/Helper_Data.php:254
 msgid "Search the Gravity PDF Knowledgebase..."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:252, src/View/html/Settings/help.php:37
+#: src/Helper/Helper_Data.php:255, src/View/html/Settings/help.php:37
 msgid "Gravity PDF Documentation"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:253, src/View/html/Settings/help.php:107
+#: src/Helper/Helper_Data.php:256, src/View/html/Settings/help.php:107
 msgid "It doesn't look like there are any topics related to your issue."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:254
+#: src/Helper/Helper_Data.php:257
 msgid "An error occurred. Please try again"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:256
+#: src/Helper/Helper_Data.php:259
 msgid "Requires Gravity PDF v%s"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:257
+#: src/Helper/Helper_Data.php:260
 msgid "This PDF template is not compatible with your version of Gravity PDF. This template required Gravity PDF v%s."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:258
+#: src/Helper/Helper_Data.php:261
 msgid "Template Details"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:259
+#: src/Helper/Helper_Data.php:262
 msgid "Current Template"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:260
+#: src/Helper/Helper_Data.php:263
 msgid "Show previous template"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:261
+#: src/Helper/Helper_Data.php:264
 msgid "Show next template"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:262
+#: src/Helper/Helper_Data.php:265
 msgid "Upload is not a valid template. Upload a .zip file."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:263
+#: src/Helper/Helper_Data.php:266
 msgid "Upload exceeds the 10MB limit."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:264
+#: src/Helper/Helper_Data.php:267
 msgid "Template successfully installed"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:265
+#: src/Helper/Helper_Data.php:268
 msgid "Template successfully updated"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:266
+#: src/Helper/Helper_Data.php:269
 msgid "PDF Template(s) Successfully Installed / Updated"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:267
+#: src/Helper/Helper_Data.php:270
 msgid "There was a problem with the upload. Reload the page and try again."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:268
+#: src/Helper/Helper_Data.php:271
 msgid "Do you really want to delete this PDF template?%sClick 'Cancel' to go back, 'OK' to confirm the delete."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:269
+#: src/Helper/Helper_Data.php:272
 msgid "Could not delete template."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:270
+#: src/Helper/Helper_Data.php:273
 msgid "If you have a PDF template in .zip format you may install it here. You can also update an existing PDF template (this will override any changes you have made)."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:272
+#: src/Helper/Helper_Data.php:275
 msgid "ALL CORE FONTS SUCCESSFULLY INSTALLED"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:273
+#: src/Helper/Helper_Data.php:276
 msgid "%s CORE FONT(S) DID NOT INSTALL CORRECTLY"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:274
+#: src/Helper/Helper_Data.php:277
 msgid "Could not download Core Font list. Try again."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:275
+#: src/Helper/Helper_Data.php:278
 msgid "Downloading %s..."
 msgstr ""
 
-#: src/Helper/Helper_Data.php:276
+#: src/Helper/Helper_Data.php:279
 msgid "Completed installation of %s"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:277
+#: src/Helper/Helper_Data.php:280
 msgid "Failed installation of %s"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:278
+#: src/Helper/Helper_Data.php:281
 msgid "Fonts remaining:"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:279
+#: src/Helper/Helper_Data.php:282
 msgid "Retry Failed Downloads?"
 msgstr ""
 
@@ -1321,7 +1321,7 @@ msgstr ""
 msgid "Requires Gravity PDF"
 msgstr ""
 
-#: src/Helper/Helper_Templates.php:318, src/Helper/Helper_Templates.php:392, src/View/View_PDF.php:588
+#: src/Helper/Helper_Templates.php:323, src/Helper/Helper_Templates.php:397, src/View/View_PDF.php:583
 msgid "Legacy"
 msgstr ""
 
@@ -1369,35 +1369,35 @@ msgstr ""
 msgid "Gravity PDF does not have write permission to the %s directory. Contact your web hosting provider to fix the issue."
 msgstr ""
 
-#: src/Model/Model_Install.php:474
+#: src/Model/Model_Install.php:479
 msgid "There was a problem removing the Gravity Form \"%s\" PDF configuration. Try delete manually."
 msgstr ""
 
-#: src/Model/Model_Install.php:512
+#: src/Model/Model_Install.php:517
 msgid "There was a problem removing the %s directory. Clean up manually via (S)FTP."
 msgstr ""
 
-#: src/Model/Model_PDF.php:347
+#: src/Model/Model_PDF.php:352
 msgid "The PDF configuration is not currently active."
 msgstr ""
 
-#: src/Model/Model_PDF.php:369
+#: src/Model/Model_PDF.php:374
 msgid "PDF conditional logic requirements have not been met."
 msgstr ""
 
-#: src/Model/Model_PDF.php:481
+#: src/Model/Model_PDF.php:486
 msgid "Your PDF is no longer accessible."
 msgstr ""
 
-#: src/Model/Model_PDF.php:544, src/Model/Model_PDF.php:584
+#: src/Model/Model_PDF.php:549, src/Model/Model_PDF.php:589
 msgid "You do not have access to view this PDF."
 msgstr ""
 
-#: src/Model/Model_PDF.php:960
+#: src/Model/Model_PDF.php:965
 msgid "The PDF could not be saved."
 msgstr ""
 
-#: src/Model/Model_PDF.php:1923
+#: src/Model/Model_PDF.php:1930
 msgid "Could not find PDF configuration requested"
 msgstr ""
 
@@ -1493,20 +1493,24 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-#: src/View/View_Settings.php:322, src/View/html/Settings/system_status.php:32
+#: src/View/View_Settings.php:323, src/View/html/Settings/system_status.php:32
 msgid "WP Memory Available"
 msgstr ""
 
-#: src/View/View_Settings.php:322
+#: src/View/View_Settings.php:323
 msgid "Producing PDF documents is hard work and Gravity PDF requires more resources than most plugins. We strongly recommend you have at least 128MB, but you may need more."
 msgstr ""
 
-#: src/View/View_Settings.php:323, src/View/html/Settings/system_status.php:92
+#: src/View/View_Settings.php:324, src/View/html/Settings/system_status.php:117
 msgid "Direct PDF Protection"
 msgstr ""
 
-#: src/View/View_Settings.php:323
+#: src/View/View_Settings.php:324
 msgid "Your PDFs might be saved to a temporary directory that is publicly accessible. We will check if your PDFs are automatically protected, and let you know what you can do if they are not."
+msgstr ""
+
+#: src/View/View_Settings.php:325
+msgid "Having trouble displaying images in PDFs? If this PHP setting is disabled it could be the cause."
 msgstr ""
 
 #: src/Helper/Fields/Field_Consent.php:138
@@ -1737,43 +1741,63 @@ msgstr ""
 msgid "Installation Status"
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:45
+#: src/View/html/Settings/system_status.php:44
 msgid "Unlimited"
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:54
+#: src/View/html/Settings/system_status.php:53
 msgid "We strongly recommend you have at least 128MB of available WP Memory (RAM) assigned to your website. %1$sFind out how to increase this limit%2$s."
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:62
+#: src/View/html/Settings/system_status.php:61
 msgid "WordPress Version"
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:72
+#: src/View/html/Settings/system_status.php:71
 msgid "Gravity Forms Version"
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:82
+#: src/View/html/Settings/system_status.php:81
 msgid "PHP Version"
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:99
-msgid "You need JavaScript enabled to perform this check."
+#: src/View/html/Settings/system_status.php:91
+msgid "allow_url_fopen"
 msgstr ""
 
 #: src/View/html/Settings/system_status.php:102
-msgid "Protected"
+msgid "Enabled"
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:106
-msgid "Unprotected"
+#: src/View/html/Settings/system_status.php:102
+msgid "Disabled"
+msgstr ""
+
+#: src/View/html/Settings/system_status.php:108
+msgid "We detected the PHP runtime configuration setting %1$sallow_url_fopen%2$s is disabled."
 msgstr ""
 
 #: src/View/html/Settings/system_status.php:109
+msgid "You may notice image display issues in your PDFs. Contact your web hosting provider for assistance enabling this feature."
+msgstr ""
+
+#: src/View/html/Settings/system_status.php:124
+msgid "You need JavaScript enabled to perform this check."
+msgstr ""
+
+#: src/View/html/Settings/system_status.php:127
+msgid "Protected"
+msgstr ""
+
+#: src/View/html/Settings/system_status.php:131
+msgid "Unprotected"
+msgstr ""
+
+#: src/View/html/Settings/system_status.php:134
 msgid "We've detected the PDFs saved in Gravity PDF's %1$stmp%2$s directory can be publically accessed."
 msgstr ""
 
-#: src/View/html/Settings/system_status.php:110
+#: src/View/html/Settings/system_status.php:135
 msgid "We recommend you use our %1$sgfpdf_tmp_location%2$s filter to %3$smove the folder outside your public website directory%4$s."
 msgstr ""
 
