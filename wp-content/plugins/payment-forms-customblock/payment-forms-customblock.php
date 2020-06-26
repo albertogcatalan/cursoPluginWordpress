@@ -37,12 +37,70 @@ function pfcb_init()
 
     function pfcb_isPremium()
     {
-        $key = get_option('stripe_forms_gutenberg_premium_key');
-        if ($key == '1234') {
-            return true;
+        /*
+            1 - No tengo licencia
+            2 - Mi licencia es correcta
+            3 - Chequeo de licencia por tiempo
+            4 - Cambiar la licencia
+        */
+        $valid = false;
+        $isNew = true;
+        $license = get_option('stripe_forms_gutenberg_premium_key');
+
+        if (empty($license)) {
+            // Cuando no tengo licencia en mi options
+            return $valid;
         }
 
-        return false;
+        $licenseCached = get_transient('pfcb_license_key');
+        $check = get_transient('pfcb_license_key_check');
+
+        if (false === $check) {
+            // Cuando tengo que checkear la licencia por expiración de la cache
+            $isNew = false;
+        } elseif (!empty($licenseCached) && $license === $licenseCached) {
+            // Cuando mi licencia está activada y es igual que en mi options
+            $valid = true;
+            return $valid;
+        }
+
+        $store_url = 'http://tiendalicencias.local';
+        $item_name = 'PFCB_Premium';
+        $item_id = 10;
+        $api_params = array(
+            'edd_action' => 'check_license',
+            'item_name' => urlencode($item_name),
+            'license' => $license,
+            'url' => home_url()
+        );
+
+        if ($isNew) {
+            $api_params['edd_action'] = 'activate_license';
+        }
+
+        $response = wp_remote_post($store_url, array(
+            'body' => $api_params, 'timeout' => 10, 'sslverify' => false
+        ));
+
+        if (is_wp_error($response)) {
+            $error_message = $response->get_error_message();
+            echo $error_message;
+            return false;
+        }
+
+        $license_data = json_decode(wp_remote_retrieve_body($response));
+
+        if ($license_data->license == 'valid') {
+            if ($isNew) {
+                // Activo mi licencia
+                set_transient('pfcb_license_key', $license, 24 * HOUR_IN_SECONDS);
+            }
+            // Añado checkeo de licencia
+            set_transient('pfcb_license_key_check', $license, 12 * HOUR_IN_SECONDS);
+            $valid = true;
+        }
+
+        return $valid;
     }
 
     $isPremium = pfcb_isPremium();

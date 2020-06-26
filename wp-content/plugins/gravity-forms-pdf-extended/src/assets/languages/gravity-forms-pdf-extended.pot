@@ -65,79 +65,79 @@ msgstr ""
 msgid "The minimum requirements for Gravity PDF have not been met. Please fix the issue(s) below to continue:"
 msgstr ""
 
-#: src/bootstrap.php:125, src/bootstrap.php:137, src/deprecated.php:37, src/deprecated.php:49
+#: src/bootstrap.php:126, src/bootstrap.php:138, src/deprecated.php:37, src/deprecated.php:49
 msgid "\"%s\" has been deprecated as of Gravity PDF 4.0"
 msgstr ""
 
-#: src/bootstrap.php:296
+#: src/bootstrap.php:297
 msgid "Get started with Gravity PDF"
 msgstr ""
 
-#: src/bootstrap.php:296, src/View/html/Settings/help.php:57
+#: src/bootstrap.php:297, src/View/html/Settings/help.php:57
 msgid "Getting Started"
 msgstr ""
 
-#: src/bootstrap.php:297
+#: src/bootstrap.php:298
 msgid "View Gravity PDF Settings"
 msgstr ""
 
-#: src/bootstrap.php:297
+#: src/bootstrap.php:298
 msgid "Settings"
 msgstr ""
 
-#: src/bootstrap.php:317
+#: src/bootstrap.php:318
 msgid "View Gravity PDF Documentation"
 msgstr ""
 
-#: src/bootstrap.php:317, src/Helper/Helper_Abstract_Addon.php:635
+#: src/bootstrap.php:318, src/Helper/Helper_Abstract_Addon.php:637
 msgid "Docs"
 msgstr ""
 
-#: src/bootstrap.php:318, src/Helper/Helper_Abstract_Addon.php:638
+#: src/bootstrap.php:319, src/Helper/Helper_Abstract_Addon.php:640
 msgid "Get Help and Support"
 msgstr ""
 
-#: src/bootstrap.php:318, src/Helper/Helper_Abstract_Addon.php:638
+#: src/bootstrap.php:319, src/Helper/Helper_Abstract_Addon.php:640
 msgid "Support"
 msgstr ""
 
-#: src/bootstrap.php:319
+#: src/bootstrap.php:320
 msgid "View Gravity PDF Extensions Shop"
 msgstr ""
 
-#: src/bootstrap.php:319, src/View/View_Settings.php:192
+#: src/bootstrap.php:320, src/View/View_Settings.php:191
 msgid "Extensions"
 msgstr ""
 
-#: src/bootstrap.php:320
+#: src/bootstrap.php:321
 msgid "View Gravity PDF Template Shop"
 msgstr ""
 
-#: src/bootstrap.php:320, src/Helper/Helper_Options_Fields.php:94, src/Helper/Helper_Options_Fields.php:299
+#: src/bootstrap.php:321, src/Helper/Helper_Options_Fields.php:94, src/Helper/Helper_Options_Fields.php:299
 msgid "Templates"
 msgstr ""
 
-#: src/Controller/Controller_Actions.php:133
+#: src/Controller/Controller_Actions.php:132
 msgid "Begin Migration"
 msgstr ""
 
-#: src/Controller/Controller_Actions.php:142, src/Helper/Helper_Options_Fields.php:267, src/Helper/Helper_Options_Fields.php:269
+#: src/Controller/Controller_Actions.php:141, src/Helper/Helper_Options_Fields.php:267, src/Helper/Helper_Options_Fields.php:269
 msgid "Install Core Fonts"
 msgstr ""
 
-#: src/Controller/Controller_Actions.php:216, src/Model/Model_Form_Settings.php:168, src/Model/Model_Form_Settings.php:205, src/Model/Model_Form_Settings.php:275, src/View/View_Settings.php:297
+#: src/Controller/Controller_Actions.php:215, src/Model/Model_Form_Settings.php:165, src/Model/Model_Form_Settings.php:202, src/Model/Model_Form_Settings.php:272, src/View/View_Settings.php:296
 msgid "You do not have permission to access this page"
 msgstr ""
 
-#: src/Controller/Controller_Actions.php:223, src/Helper/Helper_Migration.php:142
+#: src/Controller/Controller_Actions.php:222, src/Helper/Helper_Migration.php:141
 msgid "There was a problem processing the action. Please try again."
 msgstr ""
 
-#: src/Controller/Controller_Install.php:214
+#: src/Controller/Controller_Install.php:213
 msgid "There was a problem uninstalling Gravity PDF. Please try again."
 msgstr ""
 
-#: src/Controller/Controller_PDF.php:371, src/View/View_PDF.php:242
+#: src/Controller/Controller_PDF.php:370, src/View/View_PDF.php:242
 msgid "There was a problem generating your PDF"
 msgstr ""
 
@@ -153,331 +153,331 @@ msgstr ""
 msgid "No"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Addon.php:600
+#: src/Helper/Helper_Abstract_Addon.php:602
 msgid "%1$sRegister your copy of %2$s%3$s to receive access to automatic upgrades and support. Need a license key? %4$sPurchase one now%5$s."
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Addon.php:635
+#: src/Helper/Helper_Abstract_Addon.php:637
 msgid "View plugin Documentation"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:387, src/Helper/Helper_Abstract_Options.php:406
+#: src/Helper/Helper_Abstract_Options.php:386, src/Helper/Helper_Abstract_Options.php:405
 msgid "You must pass in a valid form ID"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:448
+#: src/Helper/Helper_Abstract_Options.php:447
 msgid "You must pass in a valid PDF ID"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:844
+#: src/Helper/Helper_Abstract_Options.php:843
 msgid "Common Sizes"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:845
+#: src/Helper/Helper_Abstract_Options.php:844
 msgid "A4 (210 x 297mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:846
+#: src/Helper/Helper_Abstract_Options.php:845
 msgid "Letter (8.5 x 11in)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:847
+#: src/Helper/Helper_Abstract_Options.php:846
 msgid "Legal (8.5 x 14in)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:848
+#: src/Helper/Helper_Abstract_Options.php:847
 msgid "Ledger / Tabloid (11 x 17in)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:849
+#: src/Helper/Helper_Abstract_Options.php:848
 msgid "Executive (7 x 10in)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:850, src/Helper/Helper_Options_Fields.php:76, src/Helper/Helper_Options_Fields.php:365
+#: src/Helper/Helper_Abstract_Options.php:849, src/Helper/Helper_Options_Fields.php:76, src/Helper/Helper_Options_Fields.php:365
 msgid "Custom Paper Size"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:853
+#: src/Helper/Helper_Abstract_Options.php:852
 msgid "\"A\" Sizes"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:854
+#: src/Helper/Helper_Abstract_Options.php:853
 msgid "A0 (841 x 1189mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:855
+#: src/Helper/Helper_Abstract_Options.php:854
 msgid "A1 (594 x 841mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:856
+#: src/Helper/Helper_Abstract_Options.php:855
 msgid "A2 (420 x 594mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:857
+#: src/Helper/Helper_Abstract_Options.php:856
 msgid "A3 (297 x 420mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:858
+#: src/Helper/Helper_Abstract_Options.php:857
 msgid "A5 (148 x 210mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:859
+#: src/Helper/Helper_Abstract_Options.php:858
 msgid "A6 (105 x 148mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:860
+#: src/Helper/Helper_Abstract_Options.php:859
 msgid "A7 (74 x 105mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:861
+#: src/Helper/Helper_Abstract_Options.php:860
 msgid "A8 (52 x 74mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:862
+#: src/Helper/Helper_Abstract_Options.php:861
 msgid "A9 (37 x 52mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:863
+#: src/Helper/Helper_Abstract_Options.php:862
 msgid "A10 (26 x 37mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:866
+#: src/Helper/Helper_Abstract_Options.php:865
 msgid "\"B\" Sizes"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:867
+#: src/Helper/Helper_Abstract_Options.php:866
 msgid "B0 (1414 x 1000mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:868
+#: src/Helper/Helper_Abstract_Options.php:867
 msgid "B1 (1000 x 707mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:869
+#: src/Helper/Helper_Abstract_Options.php:868
 msgid "B2 (707 x 500mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:870
+#: src/Helper/Helper_Abstract_Options.php:869
 msgid "B3 (500 x 353mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:871
+#: src/Helper/Helper_Abstract_Options.php:870
 msgid "B4 (353 x 250mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:872
+#: src/Helper/Helper_Abstract_Options.php:871
 msgid "B5 (250 x 176mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:873
+#: src/Helper/Helper_Abstract_Options.php:872
 msgid "B6 (176 x 125mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:874
+#: src/Helper/Helper_Abstract_Options.php:873
 msgid "B7 (125 x 88mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:875
+#: src/Helper/Helper_Abstract_Options.php:874
 msgid "B8 (88 x 62mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:876
+#: src/Helper/Helper_Abstract_Options.php:875
 msgid "B9 (62 x 44mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:877
+#: src/Helper/Helper_Abstract_Options.php:876
 msgid "B10 (44 x 31mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:880
+#: src/Helper/Helper_Abstract_Options.php:879
 msgid "\"C\" Sizes"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:881
+#: src/Helper/Helper_Abstract_Options.php:880
 msgid "C0 (1297 x 917mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:882
+#: src/Helper/Helper_Abstract_Options.php:881
 msgid "C1 (917 x 648mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:883
+#: src/Helper/Helper_Abstract_Options.php:882
 msgid "C2 (648 x 458mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:884
+#: src/Helper/Helper_Abstract_Options.php:883
 msgid "C3 (458 x 324mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:885
+#: src/Helper/Helper_Abstract_Options.php:884
 msgid "C4 (324 x 229mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:886
+#: src/Helper/Helper_Abstract_Options.php:885
 msgid "C5 (229 x 162mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:887
+#: src/Helper/Helper_Abstract_Options.php:886
 msgid "C6 (162 x 114mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:888
+#: src/Helper/Helper_Abstract_Options.php:887
 msgid "C7 (114 x 81mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:889
+#: src/Helper/Helper_Abstract_Options.php:888
 msgid "C8 (81 x 57mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:890
+#: src/Helper/Helper_Abstract_Options.php:889
 msgid "C9 (57 x 40mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:891
+#: src/Helper/Helper_Abstract_Options.php:890
 msgid "C10 (40 x 28mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:894
+#: src/Helper/Helper_Abstract_Options.php:893
 msgid "\"RA\" and \"SRA\" Sizes"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:895
+#: src/Helper/Helper_Abstract_Options.php:894
 msgid "RA0 (860 x 1220mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:896
+#: src/Helper/Helper_Abstract_Options.php:895
 msgid "RA1 (610 x 860mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:897
+#: src/Helper/Helper_Abstract_Options.php:896
 msgid "RA2 (430 x 610mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:898
+#: src/Helper/Helper_Abstract_Options.php:897
 msgid "RA3 (305 x 430mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:899
+#: src/Helper/Helper_Abstract_Options.php:898
 msgid "RA4 (215 x 305mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:900
+#: src/Helper/Helper_Abstract_Options.php:899
 msgid "SRA0 (900 x 1280mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:901
+#: src/Helper/Helper_Abstract_Options.php:900
 msgid "SRA1 (640 x 900mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:902
+#: src/Helper/Helper_Abstract_Options.php:901
 msgid "SRA2 (450 x 640mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:903
+#: src/Helper/Helper_Abstract_Options.php:902
 msgid "SRA3 (320 x 450mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:904
+#: src/Helper/Helper_Abstract_Options.php:903
 msgid "SRA4 (225 x 320mm)"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:920
+#: src/Helper/Helper_Abstract_Options.php:919
 msgid "Unicode"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:934
+#: src/Helper/Helper_Abstract_Options.php:933
 msgid "Indic"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:939
+#: src/Helper/Helper_Abstract_Options.php:938
 msgid "Arabic"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:945
+#: src/Helper/Helper_Abstract_Options.php:944
 msgid "Chinese, Japanese, Korean"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:950
+#: src/Helper/Helper_Abstract_Options.php:949
 msgid "Other"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1004
+#: src/Helper/Helper_Abstract_Options.php:1003
 msgid "User-Defined Fonts"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1064
+#: src/Helper/Helper_Abstract_Options.php:1063
 msgid "Could not find Gravity PDF Font"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1076
+#: src/Helper/Helper_Abstract_Options.php:1075
 msgid "Copy"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1077
+#: src/Helper/Helper_Abstract_Options.php:1076
 msgid "Print - Low Resolution"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1078
+#: src/Helper/Helper_Abstract_Options.php:1077
 msgid "Print - High Resolution"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1079
+#: src/Helper/Helper_Abstract_Options.php:1078
 msgid "Modify"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1080
+#: src/Helper/Helper_Abstract_Options.php:1079
 msgid "Annotate"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1081
+#: src/Helper/Helper_Abstract_Options.php:1080
 msgid "Fill Forms"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1082
+#: src/Helper/Helper_Abstract_Options.php:1081
 msgid "Extract"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1083
+#: src/Helper/Helper_Abstract_Options.php:1082
 msgid "Assemble"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1188
+#: src/Helper/Helper_Abstract_Options.php:1187
 msgid "Settings updated."
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1340, src/Helper/Helper_Abstract_Options.php:1348, src/Helper/Helper_Abstract_Options.php:1356
+#: src/Helper/Helper_Abstract_Options.php:1339, src/Helper/Helper_Abstract_Options.php:1347, src/Helper/Helper_Abstract_Options.php:1355
 msgid "PDF Settings could not be saved. Please enter all required information below."
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1668
+#: src/Helper/Helper_Abstract_Options.php:1667
 msgid "Deactivate License"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1967, src/Helper/Helper_Abstract_Options.php:1968
+#: src/Helper/Helper_Abstract_Options.php:1966, src/Helper/Helper_Abstract_Options.php:1967
 msgid "Select Media"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:1969
+#: src/Helper/Helper_Abstract_Options.php:1968
 msgid "Upload File"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:2126
+#: src/Helper/Helper_Abstract_Options.php:2125
 msgid "Width"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:2127
+#: src/Helper/Helper_Abstract_Options.php:2126
 msgid "Height"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:2132
+#: src/Helper/Helper_Abstract_Options.php:2131
 msgid "mm"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:2133
+#: src/Helper/Helper_Abstract_Options.php:2132
 msgid "inches"
 msgstr ""
 
-#: src/Helper/Helper_Abstract_Options.php:2194
+#: src/Helper/Helper_Abstract_Options.php:2193
 msgid "The callback used for the %s setting is missing."
 msgstr ""
 
@@ -485,7 +485,7 @@ msgstr ""
 msgid "Cannot find file %s"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:149, src/Model/Model_Mergetags.php:117
+#: src/Helper/Helper_Data.php:149, src/Model/Model_Mergetags.php:116
 msgid "PDF"
 msgstr ""
 
@@ -545,11 +545,11 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:226, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:877
+#: src/Helper/Helper_Data.php:226, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:874
 msgid "Active"
 msgstr ""
 
-#: src/Helper/Helper_Data.php:227, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:877
+#: src/Helper/Helper_Data.php:227, src/Helper/Helper_PDF_List_Table.php:227, src/Helper/Helper_PDF_List_Table.php:228, src/Model/Model_Form_Settings.php:874
 msgid "Inactive"
 msgstr ""
 
@@ -745,11 +745,11 @@ msgstr ""
 msgid "Retry Failed Downloads?"
 msgstr ""
 
-#: src/Helper/Helper_Migration.php:546
+#: src/Helper/Helper_Migration.php:545
 msgid "There was a problem migrating the following configuration nodes. You will need to manually setup those PDFs."
 msgstr ""
 
-#: src/Helper/Helper_Migration.php:556
+#: src/Helper/Helper_Migration.php:555
 msgid "Migration Successful."
 msgstr ""
 
@@ -1317,11 +1317,11 @@ msgstr ""
 msgid "This form doesn't have any PDFs. Let's go %1$screate one%2$s."
 msgstr ""
 
-#: src/Helper/Helper_Templates.php:212
+#: src/Helper/Helper_Templates.php:211
 msgid "Requires Gravity PDF"
 msgstr ""
 
-#: src/Helper/Helper_Templates.php:323, src/Helper/Helper_Templates.php:397, src/View/View_PDF.php:583
+#: src/Helper/Helper_Templates.php:322, src/Helper/Helper_Templates.php:396, src/View/View_PDF.php:583
 msgid "Legacy"
 msgstr ""
 
@@ -1333,47 +1333,47 @@ msgstr ""
 msgid "Database import problem for site #%s"
 msgstr ""
 
-#: src/Model/Model_Form_Settings.php:236
+#: src/Model/Model_Form_Settings.php:233
 msgid "Update PDF"
 msgstr ""
 
-#: src/Model/Model_Form_Settings.php:236
+#: src/Model/Model_Form_Settings.php:233
 msgid "Add PDF"
 msgstr ""
 
-#: src/Model/Model_Form_Settings.php:281, src/Model/Model_Form_Settings.php:303, src/Model/Model_Form_Settings.php:352, src/Model/Model_Form_Settings.php:381
+#: src/Model/Model_Form_Settings.php:278, src/Model/Model_Form_Settings.php:300, src/Model/Model_Form_Settings.php:349, src/Model/Model_Form_Settings.php:378
 msgid "There was a problem saving your PDF settings. Please try again."
 msgstr ""
 
-#: src/Model/Model_Form_Settings.php:324
+#: src/Model/Model_Form_Settings.php:321
 msgid "PDF could not be saved. Please enter all required information below."
 msgstr ""
 
-#: src/Model/Model_Form_Settings.php:346
+#: src/Model/Model_Form_Settings.php:343
 msgid "PDF saved successfully. %1$sBack to PDF list.%2$s"
 msgstr ""
 
-#: src/Model/Model_Form_Settings.php:764
+#: src/Model/Model_Form_Settings.php:761
 msgid "PDF successfully deleted."
 msgstr ""
 
-#: src/Model/Model_Form_Settings.php:825
+#: src/Model/Model_Form_Settings.php:822
 msgid "PDF successfully duplicated."
 msgstr ""
 
-#: src/Model/Model_Install.php:295
+#: src/Model/Model_Install.php:293
 msgid "There was a problem creating the %s directory. Ensure you have write permissions to your uploads folder."
 msgstr ""
 
-#: src/Model/Model_Install.php:307
+#: src/Model/Model_Install.php:305
 msgid "Gravity PDF does not have write permission to the %s directory. Contact your web hosting provider to fix the issue."
 msgstr ""
 
-#: src/Model/Model_Install.php:479
+#: src/Model/Model_Install.php:477
 msgid "There was a problem removing the Gravity Form \"%s\" PDF configuration. Try delete manually."
 msgstr ""
 
-#: src/Model/Model_Install.php:517
+#: src/Model/Model_Install.php:515
 msgid "There was a problem removing the %s directory. Clean up manually via (S)FTP."
 msgstr ""
 
@@ -1477,39 +1477,39 @@ msgstr ""
 msgid "Download Core Fonts"
 msgstr ""
 
-#: src/View/View_Settings.php:165
+#: src/View/View_Settings.php:164
 msgid "General"
 msgstr ""
 
-#: src/View/View_Settings.php:170, src/View/html/Settings/tools.php:26, src/View/html/Settings/tools.php:37
+#: src/View/View_Settings.php:169, src/View/html/Settings/tools.php:26, src/View/html/Settings/tools.php:37
 msgid "Tools"
 msgstr ""
 
-#: src/View/View_Settings.php:175
+#: src/View/View_Settings.php:174
 msgid "Help"
 msgstr ""
 
-#: src/View/View_Settings.php:183
+#: src/View/View_Settings.php:182
 msgid "License"
 msgstr ""
 
-#: src/View/View_Settings.php:323, src/View/html/Settings/system_status.php:32
+#: src/View/View_Settings.php:322, src/View/html/Settings/system_status.php:32
 msgid "WP Memory Available"
 msgstr ""
 
-#: src/View/View_Settings.php:323
+#: src/View/View_Settings.php:322
 msgid "Producing PDF documents is hard work and Gravity PDF requires more resources than most plugins. We strongly recommend you have at least 128MB, but you may need more."
 msgstr ""
 
-#: src/View/View_Settings.php:324, src/View/html/Settings/system_status.php:117
+#: src/View/View_Settings.php:323, src/View/html/Settings/system_status.php:117
 msgid "Direct PDF Protection"
 msgstr ""
 
-#: src/View/View_Settings.php:324
+#: src/View/View_Settings.php:323
 msgid "Your PDFs might be saved to a temporary directory that is publicly accessible. We will check if your PDFs are automatically protected, and let you know what you can do if they are not."
 msgstr ""
 
-#: src/View/View_Settings.php:325
+#: src/View/View_Settings.php:324
 msgid "Having trouble displaying images in PDFs? If this PHP setting is disabled it could be the cause."
 msgstr ""
 
