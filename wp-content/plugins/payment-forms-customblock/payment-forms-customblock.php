@@ -48,54 +48,55 @@ function pfcb_init()
         $license = get_option('stripe_forms_gutenberg_premium_key');
 
         if (empty($license)) {
-            // Cuando no tengo licencia en mi options
+            // Cuando no tengo licencia en mi options (Caso 1)
             return $valid;
         }
 
-        $licenseCached = get_transient('pfcb_license_key');
+        $license_transient = get_transient('pfcb_license_key');
         $check = get_transient('pfcb_license_key_check');
 
         if (false === $check) {
-            // Cuando tengo que checkear la licencia por expiración de la cache
+            // Cuando tengo que checkear la licencia por expiración del transient
             $isNew = false;
-        } elseif (!empty($licenseCached) && $license === $licenseCached) {
+        } elseif (!empty($license_transient) && $license === $license_transient) {
             // Cuando mi licencia está activada y es igual que en mi options
             $valid = true;
             return $valid;
         }
 
+        // Variables petición
         $store_url = 'http://tiendalicencias.local';
-        $item_name = 'PFCB_Premium';
-        $item_id = 10;
-        $api_params = array(
+        $product_name = 'PFCB_Premium';
+        $api_params = [
             'edd_action' => 'check_license',
-            'item_name' => urlencode($item_name),
+            'item_name' => urlencode($product_name),
             'license' => $license,
             'url' => home_url()
-        );
+        ];
 
         if ($isNew) {
             $api_params['edd_action'] = 'activate_license';
         }
 
-        $response = wp_remote_post($store_url, array(
-            'body' => $api_params, 'timeout' => 10, 'sslverify' => false
-        ));
+        $response = wp_remote_post($store_url, [
+            'body' => $api_params,
+            'timeout' => 10,
+            'sslverify' => false
+        ]);
 
         if (is_wp_error($response)) {
-            $error_message = $response->get_error_message();
-            echo $error_message;
+            $message = $response->get_error_message();
+            echo $message;
             return false;
         }
 
         $license_data = json_decode(wp_remote_retrieve_body($response));
-
         if ($license_data->license == 'valid') {
             if ($isNew) {
-                // Activo mi licencia
+                // Activo la licencia
                 set_transient('pfcb_license_key', $license, 24 * HOUR_IN_SECONDS);
             }
-            // Añado checkeo de licencia
+            // Añadir check licencia
             set_transient('pfcb_license_key_check', $license, 12 * HOUR_IN_SECONDS);
             $valid = true;
         }
