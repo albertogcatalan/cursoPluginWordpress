@@ -18,9 +18,18 @@ define('PFCB_PATH', plugin_dir_path(__FILE__));
 define('PFCB_ADMIN_PATH', plugin_dir_path(__FILE__).'/admin/');
 define('PFCB_EXTENSION', 'payment-forms-customblock-dashboard/payment-forms-customblock-dashboard.php');
 define('PFCB_BASENAME', plugin_basename(__FILE__));
+define('PFCB_STORE_URL', 'http://tiendalicencias.local');
+define('PFCB_PRODUCT_NAME', 'PFCB_Premium');
+define('PFCB_PRODUCT_ID', 20);
+
+if( !class_exists( 'PFCB_SL_Plugin_Updater' ) ) {
+	// load our custom updater if it doesn't already exist 
+	include( dirname( __FILE__ ) . '/PFCB_SL_Plugin_Updater.php' );
+}
 
 function pfcb_init()
 {
+    // función para comprobar extensión
     function pfcb_check_extension()
     {
         $extension = false;
@@ -35,6 +44,7 @@ function pfcb_init()
         return true;
     }
 
+    // función premium
     function pfcb_isPremium()
     {
         /*
@@ -65,8 +75,8 @@ function pfcb_init()
         }
 
         // Variables petición
-        $store_url = 'http://tiendalicencias.local';
-        $product_name = 'PFCB_Premium';
+        $store_url = PFCB_STORE_URL;
+        $product_name = PFCB_PRODUCT_NAME;
         $api_params = [
             'edd_action' => 'check_license',
             'item_name' => urlencode($product_name),
@@ -81,7 +91,7 @@ function pfcb_init()
         $response = wp_remote_post($store_url, [
             'body' => $api_params,
             'timeout' => 10,
-            'sslverify' => false
+            'sslverify' => true
         ]);
 
         if (is_wp_error($response)) {
@@ -113,7 +123,7 @@ function pfcb_init()
     // función para añadir enlace custom en listado plugin
     function pfcb_custom_link_premium($links)
     {
-        $links[] = '<a href="#" target="_blank" rel="noopener noreferrer"><strong style="color: green; display: inline;">Actualizar a Premium</strong></a>';
+        $links[] = '<a href="'.PFCB_STORE_URL.'" target="_blank" rel="noopener noreferrer"><strong style="color: green; display: inline;">'.__('Actualizar a Premium', 'stripe-forms-gutenberg').'</strong></a>';
 
         return $links;
     }
@@ -135,6 +145,17 @@ function pfcb_init()
         register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_api_public');
         register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_premium_key');
         register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_plan');
+
+        $license = get_option('stripe_forms_gutenberg_premium_key');
+
+        $updater = new PFCB_SL_Plugin_Updater( PFCB_STORE_URL, __FILE__, array(
+            'version' 	=> '1.2',
+            'license' 	=> $license,
+            'item_id'   => PFCB_PRODUCT_ID,
+            'author' 	=> 'Alberto González',
+            'url'           => home_url(),
+            'beta'      => false
+        ) );
     }
     add_action('admin_init', 'pfcb_settings');
 

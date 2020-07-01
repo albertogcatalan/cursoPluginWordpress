@@ -8403,3 +8403,175 @@ Content-Type: application/json
 
 )
 
+[01-Jul-2020 11:02:05 UTC] PHP Warning:  Use of undefined constant EDD_SL_STORE_URL - assumed 'EDD_SL_STORE_URL' (this will throw an Error in a future version of PHP) in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/payment-forms-customblock/payment-forms-customblock.php on line 154
+[01-Jul-2020 11:02:05 UTC] PHP Stack trace:
+[01-Jul-2020 11:02:05 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 11:02:05 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:45
+[01-Jul-2020 11:02:05 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:02:05 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:02:05 UTC] PHP   5. pfcb_update_plugin() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:02:05 UTC] PHP Warning:  Use of undefined constant EDD_SL_ITEM_ID - assumed 'EDD_SL_ITEM_ID' (this will throw an Error in a future version of PHP) in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/payment-forms-customblock/payment-forms-customblock.php on line 157
+[01-Jul-2020 11:02:05 UTC] PHP Stack trace:
+[01-Jul-2020 11:02:05 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 11:02:05 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:45
+[01-Jul-2020 11:02:05 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:02:05 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:02:05 UTC] PHP   5. pfcb_update_plugin() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:02:23 UTC] PHP Warning:  Use of undefined constant EDD_SL_STORE_URL - assumed 'EDD_SL_STORE_URL' (this will throw an Error in a future version of PHP) in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/payment-forms-customblock/payment-forms-customblock.php on line 153
+[01-Jul-2020 11:02:23 UTC] PHP Stack trace:
+[01-Jul-2020 11:02:23 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 11:02:23 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:45
+[01-Jul-2020 11:02:23 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:02:23 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:02:23 UTC] PHP   5. pfcb_update_plugin() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:02:23 UTC] PHP Notice:  Undefined variable: license_key in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/payment-forms-customblock/payment-forms-customblock.php on line 155
+[01-Jul-2020 11:02:23 UTC] PHP Stack trace:
+[01-Jul-2020 11:02:23 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 11:02:23 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:45
+[01-Jul-2020 11:02:23 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:02:23 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:02:23 UTC] PHP   5. pfcb_update_plugin() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:02:23 UTC] PHP Warning:  Use of undefined constant EDD_SL_ITEM_ID - assumed 'EDD_SL_ITEM_ID' (this will throw an Error in a future version of PHP) in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/payment-forms-customblock/payment-forms-customblock.php on line 156
+[01-Jul-2020 11:02:23 UTC] PHP Stack trace:
+[01-Jul-2020 11:02:23 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 11:02:23 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:45
+[01-Jul-2020 11:02:23 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:02:23 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:02:23 UTC] PHP   5. pfcb_update_plugin() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:03:02 UTC] PHP Warning:  Use of undefined constant PFCB_PRODUCT_ID - assumed 'PFCB_PRODUCT_ID' (this will throw an Error in a future version of PHP) in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/payment-forms-customblock/payment-forms-customblock.php on line 156
+[01-Jul-2020 11:03:02 UTC] PHP Stack trace:
+[01-Jul-2020 11:03:02 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 11:03:02 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:45
+[01-Jul-2020 11:03:02 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:03:02 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:03:02 UTC] PHP   5. pfcb_update_plugin() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:56:52 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 479
+[01-Jul-2020 11:56:52 UTC] PHP Stack trace:
+[01-Jul-2020 11:56:52 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 11:56:52 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 11:56:52 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:56:52 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:56:52 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:56:52 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 11:56:52 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 481
+[01-Jul-2020 11:56:52 UTC] PHP Stack trace:
+[01-Jul-2020 11:56:52 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 11:56:52 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 11:56:52 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:56:52 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:56:52 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:56:52 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 11:59:22 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 479
+[01-Jul-2020 11:59:22 UTC] PHP Stack trace:
+[01-Jul-2020 11:59:22 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 11:59:22 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 11:59:22 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:59:22 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:59:22 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:59:22 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 11:59:22 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 481
+[01-Jul-2020 11:59:22 UTC] PHP Stack trace:
+[01-Jul-2020 11:59:22 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 11:59:22 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 11:59:22 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:59:22 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:59:22 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:59:22 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 11:59:43 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 479
+[01-Jul-2020 11:59:43 UTC] PHP Stack trace:
+[01-Jul-2020 11:59:43 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 11:59:43 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 11:59:43 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:59:43 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:59:43 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:59:43 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 11:59:43 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 481
+[01-Jul-2020 11:59:43 UTC] PHP Stack trace:
+[01-Jul-2020 11:59:43 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 11:59:43 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 11:59:43 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 11:59:43 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 11:59:43 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 11:59:43 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 12:00:30 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 479
+[01-Jul-2020 12:00:30 UTC] PHP Stack trace:
+[01-Jul-2020 12:00:30 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 12:00:30 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 12:00:30 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 12:00:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 12:00:30 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 12:00:30 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 12:00:30 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 481
+[01-Jul-2020 12:00:30 UTC] PHP Stack trace:
+[01-Jul-2020 12:00:30 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 12:00:30 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 12:00:30 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 12:00:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 12:00:30 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 12:00:30 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 12:14:25 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 479
+[01-Jul-2020 12:14:25 UTC] PHP Stack trace:
+[01-Jul-2020 12:14:25 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 12:14:25 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 12:14:25 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 12:14:25 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 12:14:25 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 12:14:25 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 12:14:25 UTC] PHP Notice:  Undefined property: stdClass::$version in /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php on line 481
+[01-Jul-2020 12:14:25 UTC] PHP Stack trace:
+[01-Jul-2020 12:14:25 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:0
+[01-Jul-2020 12:14:25 UTC] PHP   2. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugin-install.php:70
+[01-Jul-2020 12:14:25 UTC] PHP   3. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[01-Jul-2020 12:14:25 UTC] PHP   4. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[01-Jul-2020 12:14:25 UTC] PHP   5. install_plugin_information() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[01-Jul-2020 12:14:25 UTC] PHP   6. install_plugin_install_status() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/plugin-install.php:853
+[01-Jul-2020 12:42:24 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php on line 1626
+[01-Jul-2020 12:42:24 UTC] PHP Stack trace:
+[01-Jul-2020 12:42:24 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 12:42:24 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:22
+[01-Jul-2020 12:42:24 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-load.php:37
+[01-Jul-2020 12:42:24 UTC] PHP   4. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-config.php:82
+[01-Jul-2020 12:42:24 UTC] PHP   5. require_wp_db() /Users/alberto/Workspace/cursos/cursowordpress/wp-settings.php:126
+[01-Jul-2020 12:42:24 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
+[01-Jul-2020 12:42:24 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
+[01-Jul-2020 12:42:24 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
+[01-Jul-2020 12:42:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php on line 1626
+[01-Jul-2020 12:42:58 UTC] PHP Stack trace:
+[01-Jul-2020 12:42:58 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 12:42:58 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:22
+[01-Jul-2020 12:42:58 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-load.php:37
+[01-Jul-2020 12:42:58 UTC] PHP   4. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-config.php:82
+[01-Jul-2020 12:42:58 UTC] PHP   5. require_wp_db() /Users/alberto/Workspace/cursos/cursowordpress/wp-settings.php:126
+[01-Jul-2020 12:42:58 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
+[01-Jul-2020 12:42:58 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
+[01-Jul-2020 12:42:58 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
+[01-Jul-2020 13:18:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php on line 1626
+[01-Jul-2020 13:18:08 UTC] PHP Stack trace:
+[01-Jul-2020 13:18:08 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 13:18:08 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:22
+[01-Jul-2020 13:18:08 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-load.php:37
+[01-Jul-2020 13:18:08 UTC] PHP   4. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-config.php:82
+[01-Jul-2020 13:18:08 UTC] PHP   5. require_wp_db() /Users/alberto/Workspace/cursos/cursowordpress/wp-settings.php:126
+[01-Jul-2020 13:18:08 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
+[01-Jul-2020 13:18:08 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
+[01-Jul-2020 13:18:08 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
+[01-Jul-2020 13:20:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php on line 1626
+[01-Jul-2020 13:20:11 UTC] PHP Stack trace:
+[01-Jul-2020 13:20:11 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 13:20:11 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:22
+[01-Jul-2020 13:20:11 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-load.php:37
+[01-Jul-2020 13:20:11 UTC] PHP   4. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-config.php:82
+[01-Jul-2020 13:20:11 UTC] PHP   5. require_wp_db() /Users/alberto/Workspace/cursos/cursowordpress/wp-settings.php:126
+[01-Jul-2020 13:20:11 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
+[01-Jul-2020 13:20:11 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
+[01-Jul-2020 13:20:11 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
+[01-Jul-2020 13:22:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php on line 1626
+[01-Jul-2020 13:22:11 UTC] PHP Stack trace:
+[01-Jul-2020 13:22:11 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[01-Jul-2020 13:22:11 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:22
+[01-Jul-2020 13:22:11 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-load.php:37
+[01-Jul-2020 13:22:11 UTC] PHP   4. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-config.php:82
+[01-Jul-2020 13:22:11 UTC] PHP   5. require_wp_db() /Users/alberto/Workspace/cursos/cursowordpress/wp-settings.php:126
+[01-Jul-2020 13:22:11 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
+[01-Jul-2020 13:22:11 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
+[01-Jul-2020 13:22:11 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
