@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-23 15:44:08+0000\n"
+"PO-Revision-Date: 2020-06-30 16:51:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
 
@@ -3289,7 +3289,7 @@ msgstr "El método de petición %1$s no es válido."
 #. Premium.
 #: admin/class-social-admin.php:184
 msgid "Do you want to preview what it will look like if people share this post on %1$s? You can, with %2$s."
-msgstr "¿Quieres previsualizar lo que verá la gente si comparte esta entrada en %1$s? Puedes, con %2$s."
+msgstr "¿Quieres previsualizar cómo se verá si la gente comparte esta entrada en %1$s? Con %2$s puedes hacerlo."
 
 #: admin/links/class-link-reindex-dashboard.php:174
 msgid "Good job! All the links in your texts have been counted."
