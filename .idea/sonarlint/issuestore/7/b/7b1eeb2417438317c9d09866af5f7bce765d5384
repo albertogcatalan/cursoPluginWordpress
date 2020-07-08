@@ -1,24 +1,24 @@
 
-z	php:S1192H"fDefine a constant instead of duplicating this literal "pre_set_site_transient_update_plugins" 3 times.(ìşq
-c	php:S1192É"HDefine a constant instead of duplicating this literal "item_id" 6 times.(ù÷çëûÿÿÿÿ
-]	php:S1192-"HDefine a constant instead of duplicating this literal "license" 5 times.(‚İÛË
-j	php:S3776¨"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(­ÈÌ­
-nphp:S101"ZRename class "PFCB_SL_Plugin_Updater" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(úãÈÊ
-J	php:S3801Ÿ"4Refactor this function to use "return" consistently.(Ê–ŒÂ
-F	php:S1172Ÿ"0Remove the unused function parameter "$_action".(Ê–ŒÂ
-e	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(¢÷•Á
-^	php:S1192²"HDefine a constant instead of duplicating this literal "timeout" 6 times.(òÚ¦
-I	php:S1481ü"3Remove this unused "$wp_list_table" local variable.(£ö…ã
-a	php:S1192H"MDefine a constant instead of duplicating this literal "check_update" 3 times.(ìşq
-o	php:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(ë•îùÿÿÿÿ
-b	php:S1192*"HDefine a constant instead of duplicating this literal "version" 4 times.(ö¶¦²üÿÿÿÿ
-j	php:S3776Ÿ"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(Ê–ŒÂ
 e	php:S1142Ÿ"OReduce the number of returns of this function 4, down to the maximum allowed 3.(Ê–ŒÂ
+F	php:S1172Ÿ"0Remove the unused function parameter "$_action".(Ê–ŒÂ
+j	php:S3776Ÿ"TRefactor this function to reduce its Cognitive Complexity from 32 to the 15 allowed.(Ê–ŒÂ
+z	php:S1192H"fDefine a constant instead of duplicating this literal "pre_set_site_transient_update_plugins" 3 times.(ìşq
+a	php:S1192H"MDefine a constant instead of duplicating this literal "check_update" 3 times.(ìşq
+^	php:S1192²"HDefine a constant instead of duplicating this literal "timeout" 6 times.(òÚ¦
+Iphp:S121"0Add curly braces around the nested statement(s).(ä¡õÈùÿÿÿÿ
+m	php:S1192†"WDefine a constant instead of duplicating this literal "easy-digital-downloads" 4 times.(üÆô¥
+`	php:S1192È"JDefine a constant instead of duplicating this literal "item_name" 6 times.(Õî›’
 j	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 38 to the 15 allowed.(¢÷•Á
 d	php:S1192¤"ODefine a constant instead of duplicating this literal "update_plugins" 4 times.(İŒ¸|
-`	php:S1192"JDefine a constant instead of duplicating this literal "sslverify" 4 times.(§¤ß
-Iphp:S121"0Add curly braces around the nested statement(s).(ä¡õÈùÿÿÿÿ
 b	php:S1192Ì"GDefine a constant instead of duplicating this literal "author" 4 times.(Ø‹§ÿÿÿÿÿ
-`	php:S1192È"JDefine a constant instead of duplicating this literal "item_name" 6 times.(Õî›’
+I	php:S1481ü"3Remove this unused "$wp_list_table" local variable.(£ö…ã
+j	php:S3776¨"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(­ÈÌ­
+o	php:S3776ñ"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(ë•îùÿÿÿÿ
+]	php:S1192-"HDefine a constant instead of duplicating this literal "license" 5 times.(‚İÛË
+J	php:S3801Ÿ"4Refactor this function to use "return" consistently.(Ê–ŒÂ
+e	php:S1142"OReduce the number of returns of this function 5, down to the maximum allowed 3.(¢÷•Á
+b	php:S1192*"HDefine a constant instead of duplicating this literal "version" 4 times.(ö¶¦²üÿÿÿÿ
+nphp:S101"ZRename class "PFCB_SL_Plugin_Updater" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(úãÈÊ
+`	php:S1192"JDefine a constant instead of duplicating this literal "sslverify" 4 times.(§¤ß
 \	php:S1192Ê"FDefine a constant instead of duplicating this literal "value" 7 times.(ÿÃ•Ï
-m	php:S1192†"WDefine a constant instead of duplicating this literal "easy-digital-downloads" 4 times.(üÆô¥
+c	php:S1192É"HDefine a constant instead of duplicating this literal "item_id" 6 times.(ù÷çëûÿÿÿÿ

@@ -1,15 +1,15 @@
 
 E	php:S1172á"/Remove the unused function parameter "$params".(‹»–Ø
-d	php:S11420"OReduce the number of returns of this function 4, down to the maximum allowed 3.(êİºÆ
-J	php:S1066ó"/Merge this if statement with the enclosing one.(éÚÑûÿÿÿÿ
 n	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 37 to the 15 allowed.(„²¢ıÿÿÿÿ
-q	php:S3973"WUse curly braces or indentation to denote the code conditionally executed by this "if".(ÜñÙ·úÿÿÿÿ
-c	php:S1192¦"MDefine a constant instead of duplicating this literal "stripe-forms" 3 times.(Ë™ó‰
-i	php:S1192º"SDefine a constant instead of duplicating this literal "stripe-suscription" 3 times.(Ší‰ñ
 	php:S1192"fDefine a constant instead of duplicating this literal "stripe-forms-gutenberg-settings-group" 4 times.(ø¹Úÿÿÿÿÿ
+J	php:S1066ó"/Merge this if statement with the enclosing one.(éÚÑûÿÿÿÿ
 x	php:S1192:"cDefine a constant instead of duplicating this literal "stripe_forms_gutenberg_premium_key" 3 times.(»Íæ
-Iphp:S121"0Add curly braces around the nested statement(s).(ÜñÙ·úÿÿÿÿ
-s	php:S1488I"^Immediately return this expression instead of assigning it to the temporary variable "$valid".(Àäúè
-H	php:S1481—"-Remove this unused "$updater" local variable.(ŞâåÍøÿÿÿÿ
 D	php:S1481#"/Remove this unused "$extension" local variable.(ğŒÜ
+q	php:S3973"WUse curly braces or indentation to denote the code conditionally executed by this "if".(ÜñÙ·úÿÿÿÿ
+i	php:S1192º"SDefine a constant instead of duplicating this literal "stripe-suscription" 3 times.(Ší‰ñ
+c	php:S1192¦"MDefine a constant instead of duplicating this literal "stripe-forms" 3 times.(Ë™ó‰
 ’php:S138"yThis function "pfcb_init" has 167 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(„²¢ıÿÿÿÿ
+s	php:S1488I"^Immediately return this expression instead of assigning it to the temporary variable "$valid".(Àäúè
+Iphp:S121"0Add curly braces around the nested statement(s).(ÜñÙ·úÿÿÿÿ
+d	php:S11420"OReduce the number of returns of this function 4, down to the maximum allowed 3.(êİºÆ
+H	php:S1481—"-Remove this unused "$updater" local variable.(ŞâåÍøÿÿÿÿ

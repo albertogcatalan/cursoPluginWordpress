@@ -3,7 +3,7 @@
  * Plugin Name: Payment Forms CustomBlock
  * Description: Bloque de formularios de Stripe con Gutenberg
  * Author: Alberto González
- * Version: 1.2
+ * Version: 1.3
  * Author URI: https://albertogcatalan.com
  * Text Domain: stripe-forms-gutenberg
  * Domain Path: /languages
@@ -146,16 +146,20 @@ function pfcb_init()
         register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_premium_key');
         register_setting('stripe-forms-gutenberg-settings-group', 'stripe_forms_gutenberg_plan');
 
-        $license = get_option('stripe_forms_gutenberg_premium_key');
+        // retrieve our license key from the DB
+        $license_key = trim( get_option( 'stripe_forms_gutenberg_premium_key' ) );
 
-        $updater = new PFCB_SL_Plugin_Updater( PFCB_STORE_URL, __FILE__, array(
-            'version' 	=> '1.2',
-            'license' 	=> $license,
-            'item_id'   => PFCB_PRODUCT_ID,
-            'author' 	=> 'Alberto González',
-            'url'           => home_url(),
-            'beta'      => false
-        ) );
+        if ($license_key) {
+            // setup the updater
+            $edd_updater = new PFCB_SL_Plugin_Updater( PFCB_STORE_URL, __FILE__, array(
+                'version' 	=> '1.3',		// current version number
+                'license' 	=> $license_key,	// license key (used get_option above to retrieve from DB)
+                'item_id'       => PFCB_PRODUCT_ID,	// id of this plugin
+                'author' 	=> 'Alberto González',	// author of this plugin
+                'url'           => home_url(),
+                'beta'          => false // set to true if you wish customers to receive update notifications of beta releases
+            ) );
+        }
     }
     add_action('admin_init', 'pfcb_settings');
 
