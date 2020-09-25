@@ -8575,3 +8575,736 @@ Content-Type: application/json
 [01-Jul-2020 13:22:11 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
 [01-Jul-2020 13:22:11 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
 [01-Jul-2020 13:22:11 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
+[08-Jul-2020 10:52:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:52:46 UTC] PHP Stack trace:
+[08-Jul-2020 10:52:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:52:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:52:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:52:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:52:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:52:46 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[08-Jul-2020 10:52:46 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:52:46 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:52:46 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[08-Jul-2020 10:52:46 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:52:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:52:46 UTC] PHP Stack trace:
+[08-Jul-2020 10:52:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:52:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:52:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:52:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:52:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:52:46 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[08-Jul-2020 10:52:46 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:52:46 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:52:46 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[08-Jul-2020 10:52:46 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:52:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:52:46 UTC] PHP Stack trace:
+[08-Jul-2020 10:52:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:52:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:52:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:52:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:52:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:52:46 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[08-Jul-2020 10:52:46 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[08-Jul-2020 10:52:46 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:52:46 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:52:46 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[08-Jul-2020 10:52:46 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[08-Jul-2020 10:52:46 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:52:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:52:46 UTC] PHP Stack trace:
+[08-Jul-2020 10:52:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:52:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:52:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:52:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:52:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:52:46 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[08-Jul-2020 10:52:46 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[08-Jul-2020 10:52:46 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:52:46 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:52:46 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[08-Jul-2020 10:52:46 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[08-Jul-2020 10:52:46 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:54:02 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:54:02 UTC] PHP Stack trace:
+[08-Jul-2020 10:54:02 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:54:02 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:54:02 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:54:02 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:54:02 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:54:02 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[08-Jul-2020 10:54:02 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:54:02 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:54:02 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[08-Jul-2020 10:54:02 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:54:02 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:54:02 UTC] PHP Stack trace:
+[08-Jul-2020 10:54:02 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:54:02 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:54:02 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:54:02 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:54:02 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:54:02 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[08-Jul-2020 10:54:02 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:54:02 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:54:02 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[08-Jul-2020 10:54:02 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:54:02 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:54:02 UTC] PHP Stack trace:
+[08-Jul-2020 10:54:02 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:54:02 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:54:02 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:54:02 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:54:02 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:54:02 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[08-Jul-2020 10:54:02 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[08-Jul-2020 10:54:02 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:54:02 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:54:02 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[08-Jul-2020 10:54:02 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[08-Jul-2020 10:54:02 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:54:02 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[08-Jul-2020 10:54:02 UTC] PHP Stack trace:
+[08-Jul-2020 10:54:02 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[08-Jul-2020 10:54:02 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[08-Jul-2020 10:54:02 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[08-Jul-2020 10:54:02 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[08-Jul-2020 10:54:02 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[08-Jul-2020 10:54:02 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[08-Jul-2020 10:54:02 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[08-Jul-2020 10:54:02 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[08-Jul-2020 10:54:02 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[08-Jul-2020 10:54:02 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[08-Jul-2020 10:54:02 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[08-Jul-2020 10:54:02 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[08-Jul-2020 10:57:49 UTC] PHP Deprecated:  screen_icon ha quedado <strong>obsoleto</strong> desde la versión 3.8.0 y no hay alternativas disponibles. in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 4723
+[08-Jul-2020 10:57:49 UTC] PHP Stack trace:
+[08-Jul-2020 10:57:49 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugins.php:0
+[08-Jul-2020 10:57:49 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugins.php:10
+[08-Jul-2020 10:57:49 UTC] PHP   3. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin.php:254
+[08-Jul-2020 10:57:49 UTC] PHP   4. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[08-Jul-2020 10:57:49 UTC] PHP   5. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[08-Jul-2020 10:57:49 UTC] PHP   6. pluginception_options_page() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[08-Jul-2020 10:57:49 UTC] PHP   7. screen_icon() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/pluginception/pluginception.php:55
+[08-Jul-2020 10:57:49 UTC] PHP   8. _deprecated_function() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/deprecated.php:1229
+[08-Jul-2020 10:57:49 UTC] PHP   9. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:4723
+[08-Jul-2020 10:57:49 UTC] PHP Deprecated:  get_screen_icon ha quedado <strong>obsoleto</strong> desde la versión 3.8.0 y no hay alternativas disponibles. in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 4723
+[08-Jul-2020 10:57:49 UTC] PHP Stack trace:
+[08-Jul-2020 10:57:49 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugins.php:0
+[08-Jul-2020 10:57:49 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/plugins.php:10
+[08-Jul-2020 10:57:49 UTC] PHP   3. do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin.php:254
+[08-Jul-2020 10:57:49 UTC] PHP   4. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:478
+[08-Jul-2020 10:57:49 UTC] PHP   5. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[08-Jul-2020 10:57:49 UTC] PHP   6. pluginception_options_page() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[08-Jul-2020 10:57:49 UTC] PHP   7. screen_icon() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/pluginception/pluginception.php:55
+[08-Jul-2020 10:57:49 UTC] PHP   8. get_screen_icon() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/deprecated.php:1230
+[08-Jul-2020 10:57:49 UTC] PHP   9. _deprecated_function() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/deprecated.php:1242
+[08-Jul-2020 10:57:49 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:4723
+[21-Jul-2020 16:02:35 UTC] PHP Warning:  require_once(../bootstrap.php): failed to open stream: No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/stripe-command/public/index.php on line 19
+[21-Jul-2020 16:02:35 UTC] PHP Stack trace:
+[21-Jul-2020 16:02:35 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:02:35 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:02:35 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[21-Jul-2020 16:02:35 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[21-Jul-2020 16:02:35 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[21-Jul-2020 16:02:35 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[21-Jul-2020 16:02:35 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[21-Jul-2020 16:02:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[21-Jul-2020 16:02:35 UTC] PHP   9. wpse9870_parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[21-Jul-2020 16:02:35 UTC] PHP  10. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/striperks.php:46
+[21-Jul-2020 16:02:35 UTC] PHP Fatal error:  require_once(): Failed opening required '../bootstrap.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.22/lib/php') in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/stripe-command/public/index.php on line 19
+[21-Jul-2020 16:02:35 UTC] PHP Stack trace:
+[21-Jul-2020 16:02:35 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:02:35 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:02:35 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[21-Jul-2020 16:02:35 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[21-Jul-2020 16:02:35 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[21-Jul-2020 16:02:35 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[21-Jul-2020 16:02:35 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[21-Jul-2020 16:02:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[21-Jul-2020 16:02:35 UTC] PHP   9. wpse9870_parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[21-Jul-2020 16:02:35 UTC] PHP  10. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/striperks.php:46
+[21-Jul-2020 16:03:11 UTC] PHP Warning:  include(/stripe-command/public/index.php): failed to open stream: No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/functions.php on line 670
+[21-Jul-2020 16:03:11 UTC] PHP Stack trace:
+[21-Jul-2020 16:03:11 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:03:11 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:03:11 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:19
+[21-Jul-2020 16:03:11 UTC] PHP   4. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template-loader.php:106
+[21-Jul-2020 16:03:11 UTC] PHP   5. get_template_part() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/page.php:28
+[21-Jul-2020 16:03:11 UTC] PHP   6. locate_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/general-template.php:168
+[21-Jul-2020 16:03:11 UTC] PHP   7. load_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:672
+[21-Jul-2020 16:03:11 UTC] PHP   8. require() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:725
+[21-Jul-2020 16:03:11 UTC] PHP   9. the_content() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/template-parts/page/content-page.php:22
+[21-Jul-2020 16:03:11 UTC] PHP  10. apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/post-template.php:253
+[21-Jul-2020 16:03:11 UTC] PHP  11. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:206
+[21-Jul-2020 16:03:11 UTC] PHP  12. my_the_content_filter() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[21-Jul-2020 16:03:11 UTC] PHP Warning:  include(): Failed opening '/stripe-command/public/index.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.22/lib/php') in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/functions.php on line 670
+[21-Jul-2020 16:03:11 UTC] PHP Stack trace:
+[21-Jul-2020 16:03:11 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:03:11 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:03:11 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:19
+[21-Jul-2020 16:03:11 UTC] PHP   4. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template-loader.php:106
+[21-Jul-2020 16:03:11 UTC] PHP   5. get_template_part() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/page.php:28
+[21-Jul-2020 16:03:11 UTC] PHP   6. locate_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/general-template.php:168
+[21-Jul-2020 16:03:11 UTC] PHP   7. load_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:672
+[21-Jul-2020 16:03:11 UTC] PHP   8. require() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:725
+[21-Jul-2020 16:03:11 UTC] PHP   9. the_content() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/template-parts/page/content-page.php:22
+[21-Jul-2020 16:03:11 UTC] PHP  10. apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/post-template.php:253
+[21-Jul-2020 16:03:11 UTC] PHP  11. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:206
+[21-Jul-2020 16:03:11 UTC] PHP  12. my_the_content_filter() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[21-Jul-2020 16:04:01 UTC] PHP Warning:  require_once(../bootstrap.php): failed to open stream: No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/stripe-command/public/index.php on line 19
+[21-Jul-2020 16:04:01 UTC] PHP Stack trace:
+[21-Jul-2020 16:04:01 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:04:01 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:04:01 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[21-Jul-2020 16:04:01 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[21-Jul-2020 16:04:01 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[21-Jul-2020 16:04:01 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[21-Jul-2020 16:04:01 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[21-Jul-2020 16:04:01 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[21-Jul-2020 16:04:01 UTC] PHP   9. wpse9870_parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[21-Jul-2020 16:04:01 UTC] PHP  10. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/striperks.php:46
+[21-Jul-2020 16:04:01 UTC] PHP Fatal error:  require_once(): Failed opening required '../bootstrap.php' (include_path='.:/Applications/MAMP/bin/php/php7.2.22/lib/php') in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/stripe-command/public/index.php on line 19
+[21-Jul-2020 16:04:01 UTC] PHP Stack trace:
+[21-Jul-2020 16:04:01 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:04:01 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:04:01 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[21-Jul-2020 16:04:01 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[21-Jul-2020 16:04:01 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[21-Jul-2020 16:04:01 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[21-Jul-2020 16:04:01 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[21-Jul-2020 16:04:01 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[21-Jul-2020 16:04:01 UTC] PHP   9. wpse9870_parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[21-Jul-2020 16:04:01 UTC] PHP  10. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/plugins/striperks/striperks.php:46
+[21-Jul-2020 16:34:10 UTC] PHP Warning:  include(/stripe-command/public/index.php): failed to open stream: No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/functions.php on line 670
+[21-Jul-2020 16:34:10 UTC] PHP Stack trace:
+[21-Jul-2020 16:34:10 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:34:10 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:34:10 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:19
+[21-Jul-2020 16:34:10 UTC] PHP   4. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template-loader.php:106
+[21-Jul-2020 16:34:10 UTC] PHP   5. get_template_part() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/page.php:28
+[21-Jul-2020 16:34:10 UTC] PHP   6. locate_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/general-template.php:168
+[21-Jul-2020 16:34:10 UTC] PHP   7. load_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:672
+[21-Jul-2020 16:34:10 UTC] PHP   8. require() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:725
+[21-Jul-2020 16:34:10 UTC] PHP   9. the_content() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/template-parts/page/content-page.php:22
+[21-Jul-2020 16:34:10 UTC] PHP  10. apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/post-template.php:253
+[21-Jul-2020 16:34:10 UTC] PHP  11. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:206
+[21-Jul-2020 16:34:10 UTC] PHP  12. my_the_content_filter() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[21-Jul-2020 16:34:10 UTC] PHP Warning:  include(): Failed opening '/stripe-command/public/index.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.22/lib/php') in /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/functions.php on line 670
+[21-Jul-2020 16:34:10 UTC] PHP Stack trace:
+[21-Jul-2020 16:34:10 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[21-Jul-2020 16:34:10 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[21-Jul-2020 16:34:10 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:19
+[21-Jul-2020 16:34:10 UTC] PHP   4. include() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template-loader.php:106
+[21-Jul-2020 16:34:10 UTC] PHP   5. get_template_part() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/page.php:28
+[21-Jul-2020 16:34:10 UTC] PHP   6. locate_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/general-template.php:168
+[21-Jul-2020 16:34:10 UTC] PHP   7. load_template() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:672
+[21-Jul-2020 16:34:10 UTC] PHP   8. require() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/template.php:725
+[21-Jul-2020 16:34:10 UTC] PHP   9. the_content() /Users/alberto/Workspace/cursos/cursowordpress/wp-content/themes/twentyseventeen/template-parts/page/content-page.php:22
+[21-Jul-2020 16:34:10 UTC] PHP  10. apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/post-template.php:253
+[21-Jul-2020 16:34:10 UTC] PHP  11. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:206
+[21-Jul-2020 16:34:10 UTC] PHP  12. my_the_content_filter() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[02-Sep-2020 12:02:34 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[02-Sep-2020 12:02:34 UTC] PHP Stack trace:
+[02-Sep-2020 12:02:34 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[02-Sep-2020 12:02:34 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[02-Sep-2020 12:02:34 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[02-Sep-2020 12:02:34 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[02-Sep-2020 12:02:34 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[02-Sep-2020 12:02:34 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[02-Sep-2020 12:02:34 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[02-Sep-2020 12:02:34 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[02-Sep-2020 12:02:34 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[02-Sep-2020 12:02:34 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[02-Sep-2020 12:02:34 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[02-Sep-2020 12:02:34 UTC] PHP Stack trace:
+[02-Sep-2020 12:02:34 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[02-Sep-2020 12:02:34 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[02-Sep-2020 12:02:34 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[02-Sep-2020 12:02:34 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[02-Sep-2020 12:02:34 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[02-Sep-2020 12:02:34 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[02-Sep-2020 12:02:34 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[02-Sep-2020 12:02:34 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[02-Sep-2020 12:02:34 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[02-Sep-2020 12:02:34 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[02-Sep-2020 12:02:34 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[02-Sep-2020 12:02:34 UTC] PHP Stack trace:
+[02-Sep-2020 12:02:34 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[02-Sep-2020 12:02:34 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[02-Sep-2020 12:02:34 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[02-Sep-2020 12:02:34 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[02-Sep-2020 12:02:34 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[02-Sep-2020 12:02:34 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[02-Sep-2020 12:02:34 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[02-Sep-2020 12:02:34 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[02-Sep-2020 12:02:34 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[02-Sep-2020 12:02:34 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[02-Sep-2020 12:02:34 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[02-Sep-2020 12:02:34 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[02-Sep-2020 12:02:34 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[02-Sep-2020 12:02:34 UTC] PHP Stack trace:
+[02-Sep-2020 12:02:34 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[02-Sep-2020 12:02:34 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[02-Sep-2020 12:02:34 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[02-Sep-2020 12:02:34 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[02-Sep-2020 12:02:34 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[02-Sep-2020 12:02:34 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[02-Sep-2020 12:02:34 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[02-Sep-2020 12:02:34 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[02-Sep-2020 12:02:34 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[02-Sep-2020 12:02:34 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[02-Sep-2020 12:02:34 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[02-Sep-2020 12:02:34 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[09-Sep-2020 15:27:12 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[09-Sep-2020 15:27:12 UTC] PHP Stack trace:
+[09-Sep-2020 15:27:12 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[09-Sep-2020 15:27:12 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[09-Sep-2020 15:27:12 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[09-Sep-2020 15:27:12 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[09-Sep-2020 15:27:12 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[09-Sep-2020 15:27:12 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[09-Sep-2020 15:27:12 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[09-Sep-2020 15:27:12 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[09-Sep-2020 15:27:12 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[09-Sep-2020 15:27:12 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[09-Sep-2020 15:27:12 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[09-Sep-2020 15:27:12 UTC] PHP Stack trace:
+[09-Sep-2020 15:27:12 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[09-Sep-2020 15:27:12 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[09-Sep-2020 15:27:12 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[09-Sep-2020 15:27:12 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[09-Sep-2020 15:27:12 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[09-Sep-2020 15:27:12 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[09-Sep-2020 15:27:12 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[09-Sep-2020 15:27:12 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[09-Sep-2020 15:27:12 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[09-Sep-2020 15:27:12 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[09-Sep-2020 15:27:12 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[09-Sep-2020 15:27:12 UTC] PHP Stack trace:
+[09-Sep-2020 15:27:12 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[09-Sep-2020 15:27:12 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[09-Sep-2020 15:27:12 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[09-Sep-2020 15:27:12 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[09-Sep-2020 15:27:12 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[09-Sep-2020 15:27:12 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[09-Sep-2020 15:27:12 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[09-Sep-2020 15:27:12 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[09-Sep-2020 15:27:12 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[09-Sep-2020 15:27:12 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[09-Sep-2020 15:27:12 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[09-Sep-2020 15:27:12 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[09-Sep-2020 15:27:12 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[09-Sep-2020 15:27:12 UTC] PHP Stack trace:
+[09-Sep-2020 15:27:12 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[09-Sep-2020 15:27:12 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[09-Sep-2020 15:27:12 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[09-Sep-2020 15:27:12 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[09-Sep-2020 15:27:12 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[09-Sep-2020 15:27:12 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[09-Sep-2020 15:27:12 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[09-Sep-2020 15:27:12 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[09-Sep-2020 15:27:12 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[09-Sep-2020 15:27:12 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[09-Sep-2020 15:27:12 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[09-Sep-2020 15:27:12 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 09:49:14 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php on line 1626
+[10-Sep-2020 09:49:14 UTC] PHP Stack trace:
+[10-Sep-2020 09:49:14 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[10-Sep-2020 09:49:14 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:22
+[10-Sep-2020 09:49:14 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-load.php:37
+[10-Sep-2020 09:49:14 UTC] PHP   4. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-config.php:82
+[10-Sep-2020 09:49:14 UTC] PHP   5. require_wp_db() /Users/alberto/Workspace/cursos/cursowordpress/wp-settings.php:126
+[10-Sep-2020 09:49:14 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
+[10-Sep-2020 09:49:14 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
+[10-Sep-2020 09:49:14 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
+[10-Sep-2020 09:55:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php on line 1626
+[10-Sep-2020 09:55:33 UTC] PHP Stack trace:
+[10-Sep-2020 09:55:33 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:0
+[10-Sep-2020 09:55:33 UTC] PHP   2. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/admin-ajax.php:22
+[10-Sep-2020 09:55:33 UTC] PHP   3. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-load.php:37
+[10-Sep-2020 09:55:33 UTC] PHP   4. require_once() /Users/alberto/Workspace/cursos/cursowordpress/wp-config.php:82
+[10-Sep-2020 09:55:33 UTC] PHP   5. require_wp_db() /Users/alberto/Workspace/cursos/cursowordpress/wp-settings.php:126
+[10-Sep-2020 09:55:33 UTC] PHP   6. wpdb->__construct() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/load.php:426
+[10-Sep-2020 09:55:33 UTC] PHP   7. wpdb->db_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:631
+[10-Sep-2020 09:55:33 UTC] PHP   8. mysqli_real_connect() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/wp-db.php:1626
+[10-Sep-2020 10:29:37 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 10:29:37 UTC] PHP Stack trace:
+[10-Sep-2020 10:29:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 10:29:37 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 10:29:37 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 10:29:37 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 10:29:37 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 10:29:37 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[10-Sep-2020 10:29:37 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 10:29:37 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 10:29:37 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[10-Sep-2020 10:29:37 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 10:29:37 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 10:29:37 UTC] PHP Stack trace:
+[10-Sep-2020 10:29:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 10:29:37 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 10:29:37 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 10:29:37 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 10:29:37 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 10:29:37 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[10-Sep-2020 10:29:37 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 10:29:37 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 10:29:37 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[10-Sep-2020 10:29:37 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 10:29:37 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 10:29:37 UTC] PHP Stack trace:
+[10-Sep-2020 10:29:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 10:29:37 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 10:29:37 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 10:29:37 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 10:29:37 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 10:29:37 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[10-Sep-2020 10:29:37 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[10-Sep-2020 10:29:37 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 10:29:37 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 10:29:37 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[10-Sep-2020 10:29:37 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[10-Sep-2020 10:29:37 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 10:29:37 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 10:29:37 UTC] PHP Stack trace:
+[10-Sep-2020 10:29:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 10:29:37 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 10:29:37 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 10:29:37 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 10:29:37 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 10:29:37 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[10-Sep-2020 10:29:37 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[10-Sep-2020 10:29:37 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 10:29:37 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 10:29:37 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[10-Sep-2020 10:29:37 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[10-Sep-2020 10:29:37 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 11:09:38 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 11:09:38 UTC] PHP Stack trace:
+[10-Sep-2020 11:09:38 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 11:09:38 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 11:09:38 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 11:09:38 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 11:09:38 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 11:09:38 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[10-Sep-2020 11:09:38 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 11:09:38 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 11:09:38 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[10-Sep-2020 11:09:38 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 11:09:38 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 11:09:38 UTC] PHP Stack trace:
+[10-Sep-2020 11:09:38 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 11:09:38 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 11:09:38 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 11:09:38 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 11:09:38 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 11:09:38 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[10-Sep-2020 11:09:38 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 11:09:38 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 11:09:38 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[10-Sep-2020 11:09:38 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 11:09:38 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 11:09:38 UTC] PHP Stack trace:
+[10-Sep-2020 11:09:38 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 11:09:38 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 11:09:38 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 11:09:38 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 11:09:38 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 11:09:38 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[10-Sep-2020 11:09:38 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[10-Sep-2020 11:09:38 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 11:09:38 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 11:09:38 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[10-Sep-2020 11:09:38 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[10-Sep-2020 11:09:38 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[10-Sep-2020 11:09:38 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[10-Sep-2020 11:09:38 UTC] PHP Stack trace:
+[10-Sep-2020 11:09:38 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[10-Sep-2020 11:09:38 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[10-Sep-2020 11:09:38 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[10-Sep-2020 11:09:38 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[10-Sep-2020 11:09:38 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[10-Sep-2020 11:09:38 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[10-Sep-2020 11:09:38 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[10-Sep-2020 11:09:38 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[10-Sep-2020 11:09:38 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[10-Sep-2020 11:09:38 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[10-Sep-2020 11:09:38 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[10-Sep-2020 11:09:38 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 10:40:56 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 10:40:56 UTC] PHP Stack trace:
+[15-Sep-2020 10:40:56 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 10:40:56 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 10:40:56 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 10:40:56 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 10:40:56 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 10:40:56 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 10:40:56 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 10:40:56 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 10:40:56 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 10:40:56 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 10:40:56 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 10:40:56 UTC] PHP Stack trace:
+[15-Sep-2020 10:40:56 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 10:40:56 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 10:40:56 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 10:40:56 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 10:40:56 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 10:40:56 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 10:40:56 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 10:40:56 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 10:40:56 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 10:40:56 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 10:40:56 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 10:40:56 UTC] PHP Stack trace:
+[15-Sep-2020 10:40:56 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 10:40:56 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 10:40:56 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 10:40:56 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 10:40:56 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 10:40:56 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 10:40:56 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 10:40:56 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 10:40:56 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 10:40:56 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 10:40:56 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 10:40:56 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 10:40:56 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 10:40:56 UTC] PHP Stack trace:
+[15-Sep-2020 10:40:56 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 10:40:56 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 10:40:56 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 10:40:56 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 10:40:56 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 10:40:56 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 10:40:56 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 10:40:56 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 10:40:56 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 10:40:56 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 10:40:56 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 10:40:56 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:29:35 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:29:35 UTC] PHP Stack trace:
+[15-Sep-2020 14:29:35 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:29:35 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:29:35 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:29:35 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:29:35 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:29:35 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 14:29:35 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:29:35 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:29:35 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 14:29:35 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:29:35 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:29:35 UTC] PHP Stack trace:
+[15-Sep-2020 14:29:35 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:29:35 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:29:35 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:29:35 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:29:35 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:29:35 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 14:29:35 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:29:35 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:29:35 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 14:29:35 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:29:35 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:29:35 UTC] PHP Stack trace:
+[15-Sep-2020 14:29:35 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:29:35 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:29:35 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:29:35 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:29:35 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:29:35 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 14:29:35 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 14:29:35 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:29:35 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:29:35 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 14:29:35 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 14:29:35 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:29:35 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:29:35 UTC] PHP Stack trace:
+[15-Sep-2020 14:29:35 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:29:35 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:29:35 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:29:35 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:29:35 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:29:35 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 14:29:35 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 14:29:35 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:29:35 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:29:35 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 14:29:35 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 14:29:35 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:46 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:46 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 14:30:46 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:46 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:46 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 14:30:46 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:46 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:46 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 14:30:46 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:46 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:46 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 14:30:46 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:46 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:46 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 14:30:46 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 14:30:46 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:46 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:46 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 14:30:46 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 14:30:46 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:46 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:46 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:46 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:46 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:46 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:46 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:46 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:46 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 14:30:46 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 14:30:46 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:46 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:46 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 14:30:46 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 14:30:46 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:48 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:48 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:48 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:48 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:48 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:48 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:48 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:48 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 14:30:48 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:48 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:48 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 14:30:48 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:48 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «read_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:48 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:48 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:48 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:48 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:48 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:48 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:48 UTC] PHP   6. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1019
+[15-Sep-2020 14:30:48 UTC] PHP   7. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:48 UTC] PHP   8. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:48 UTC] PHP   9. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:229
+[15-Sep-2020 14:30:48 UTC] PHP  10. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:48 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:48 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:48 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:48 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:48 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:48 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:48 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:48 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 14:30:48 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 14:30:48 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:48 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:48 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 14:30:48 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 14:30:48 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:30:48 UTC] PHP Notice:  map_meta_cap ha sido llamada <strong>de forma incorrecta</strong>. El tipo de publicación edd_payment no está registrado, por lo que puede que no sea fiable para comprobar la capacidad de «edit_post» para un contenido de ese tipo. Por favor, visita <a href="https://wordpress.org/support/article/debugging-in-wordpress/">Depuración en WordPress</a> para más información. (Este mensaje fue añadido en la versión 4.4.0). in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php on line 5167
+[15-Sep-2020 14:30:48 UTC] PHP Stack trace:
+[15-Sep-2020 14:30:48 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:0
+[15-Sep-2020 14:30:48 UTC] PHP   2. wp_dashboard() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/index.php:148
+[15-Sep-2020 14:30:48 UTC] PHP   3. do_meta_boxes() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:246
+[15-Sep-2020 14:30:48 UTC] PHP   4. wp_dashboard_site_activity() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/template.php:1345
+[15-Sep-2020 14:30:48 UTC] PHP   5. wp_dashboard_recent_comments() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:889
+[15-Sep-2020 14:30:48 UTC] PHP   6. _wp_dashboard_recent_comments_row() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:1037
+[15-Sep-2020 14:30:48 UTC] PHP   7. current_user_can() /Users/alberto/Workspace/cursos/cursowordpress/wp-admin/includes/dashboard.php:658
+[15-Sep-2020 14:30:48 UTC] PHP   8. WP_User->has_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:666
+[15-Sep-2020 14:30:48 UTC] PHP   9. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-user.php:749
+[15-Sep-2020 14:30:48 UTC] PHP  10. map_meta_cap() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:397
+[15-Sep-2020 14:30:48 UTC] PHP  11. _doing_it_wrong() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/capabilities.php:160
+[15-Sep-2020 14:30:48 UTC] PHP  12. trigger_error() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:5167
+[15-Sep-2020 14:52:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 1430
+[15-Sep-2020 14:52:37 UTC] PHP Stack trace:
+[15-Sep-2020 14:52:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[15-Sep-2020 14:52:37 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[15-Sep-2020 14:52:37 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[15-Sep-2020 14:52:37 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[15-Sep-2020 14:52:37 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[15-Sep-2020 14:52:37 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[15-Sep-2020 14:52:37 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[15-Sep-2020 14:52:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[15-Sep-2020 14:52:37 UTC] PHP   9. rest_api_loaded() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[15-Sep-2020 14:52:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api.php:312
+[15-Sep-2020 14:52:37 UTC] PHP  11. apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/class-wp-rest-server.php:365
+[15-Sep-2020 14:52:37 UTC] PHP  12. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:206
+[15-Sep-2020 14:52:37 UTC] PHP  13. rest_send_allow_header() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[15-Sep-2020 14:52:37 UTC] PHP  14. WP_REST_Posts_Controller->update_item_permissions_check() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api.php:686
+[15-Sep-2020 14:52:37 UTC] PHP  15. WP_REST_Posts_Controller->check_assign_terms_permission() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:729
+[15-Sep-2020 14:52:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 1430
+[15-Sep-2020 14:52:37 UTC] PHP Stack trace:
+[15-Sep-2020 14:52:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[15-Sep-2020 14:52:37 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[15-Sep-2020 14:52:37 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[15-Sep-2020 14:52:37 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[15-Sep-2020 14:52:37 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[15-Sep-2020 14:52:37 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[15-Sep-2020 14:52:37 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[15-Sep-2020 14:52:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[15-Sep-2020 14:52:37 UTC] PHP   9. rest_api_loaded() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[15-Sep-2020 14:52:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api.php:312
+[15-Sep-2020 14:52:37 UTC] PHP  11. apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/class-wp-rest-server.php:365
+[15-Sep-2020 14:52:37 UTC] PHP  12. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:206
+[15-Sep-2020 14:52:37 UTC] PHP  13. rest_send_allow_header() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[15-Sep-2020 14:52:37 UTC] PHP  14. WP_REST_Posts_Controller->update_item_permissions_check() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api.php:686
+[15-Sep-2020 14:52:37 UTC] PHP  15. WP_REST_Posts_Controller->check_assign_terms_permission() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:729
+[15-Sep-2020 14:52:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 1430
+[15-Sep-2020 14:52:37 UTC] PHP Stack trace:
+[15-Sep-2020 14:52:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[15-Sep-2020 14:52:37 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[15-Sep-2020 14:52:37 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[15-Sep-2020 14:52:37 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[15-Sep-2020 14:52:37 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[15-Sep-2020 14:52:37 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[15-Sep-2020 14:52:37 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[15-Sep-2020 14:52:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[15-Sep-2020 14:52:37 UTC] PHP   9. rest_api_loaded() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[15-Sep-2020 14:52:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api.php:312
+[15-Sep-2020 14:52:37 UTC] PHP  11. apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/class-wp-rest-server.php:365
+[15-Sep-2020 14:52:37 UTC] PHP  12. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:206
+[15-Sep-2020 14:52:37 UTC] PHP  13. rest_send_allow_header() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[15-Sep-2020 14:52:37 UTC] PHP  14. WP_REST_Posts_Controller->update_item_permissions_check() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api.php:686
+[15-Sep-2020 14:52:37 UTC] PHP  15. WP_REST_Posts_Controller->check_assign_terms_permission() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:729
+[15-Sep-2020 14:52:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1430) in /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/class-wp-rest-server.php on line 1337
+[15-Sep-2020 14:52:37 UTC] PHP Stack trace:
+[15-Sep-2020 14:52:37 UTC] PHP   1. {main}() /Users/alberto/Workspace/cursos/cursowordpress/index.php:0
+[15-Sep-2020 14:52:37 UTC] PHP   2. require() /Users/alberto/Workspace/cursos/cursowordpress/index.php:17
+[15-Sep-2020 14:52:37 UTC] PHP   3. wp() /Users/alberto/Workspace/cursos/cursowordpress/wp-blog-header.php:16
+[15-Sep-2020 14:52:37 UTC] PHP   4. WP->main() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/functions.php:1274
+[15-Sep-2020 14:52:37 UTC] PHP   5. WP->parse_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:739
+[15-Sep-2020 14:52:37 UTC] PHP   6. do_action_ref_array() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp.php:388
+[15-Sep-2020 14:52:37 UTC] PHP   7. WP_Hook->do_action() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/plugin.php:544
+[15-Sep-2020 14:52:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:311
+[15-Sep-2020 14:52:37 UTC] PHP   9. rest_api_loaded() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/class-wp-hook.php:287
+[15-Sep-2020 14:52:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api.php:312
+[15-Sep-2020 14:52:37 UTC] PHP  11. WP_REST_Server->send_headers() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/class-wp-rest-server.php:374
+[15-Sep-2020 14:52:37 UTC] PHP  12. WP_REST_Server->send_header() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/class-wp-rest-server.php:1349
+[15-Sep-2020 14:52:37 UTC] PHP  13. header() /Users/alberto/Workspace/cursos/cursowordpress/wp-includes/rest-api/class-wp-rest-server.php:1337
